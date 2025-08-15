@@ -1,0 +1,530 @@
+numprocesso;ano;modalidade;numcontrato;anocontrato;orgao
+1;2025;Comparação de Preços (Shopping);4741;2025;SEFA - Secretaria de Estado da Fazenda
+1;2025;Concorrência Eletrônica (Lei Federal 14.133/2021);3109;2025;UEM - Universidade Estadual de Maringá
+4;2025;Concorrência Eletrônica (Lei Federal 14.133/2021);3148;2025;DER - Departamento de Estradas de Rodagem do Estado do Paraná
+5;2025;Concorrência Eletrônica (Lei Federal 14.133/2021);3681;2025;DER - Departamento de Estradas de Rodagem do Estado do Paraná
+8;2025;Concorrência Eletrônica (Lei Federal 14.133/2021);2596;2025;DER - Departamento de Estradas de Rodagem do Estado do Paraná
+9;2025;Concorrência Eletrônica (Lei Federal 14.133/2021);1985;2025;UNIOESTE TOLEDO - Universidade Estadual do Oeste do Paraná - Campus Toledo
+11;2025;Concorrência Eletrônica (Lei Federal 14.133/2021);2094;2025;UENP - Universidade Estadual do Norte do Paraná
+13;2025;Concorrência Eletrônica (Lei Federal 14.133/2021);3827;2025;DER - Departamento de Estradas de Rodagem do Estado do Paraná
+14;2025;Concorrência Eletrônica (Lei Federal 14.133/2021);4176;2025;DER - Departamento de Estradas de Rodagem do Estado do Paraná
+15;2025;Concorrência Eletrônica (Lei Federal 14.133/2021);4254;2025;DER - Departamento de Estradas de Rodagem do Estado do Paraná
+17;2025;Concorrência Eletrônica (Lei Federal 14.133/2021);5424;2025;PRPREV - Serviço Social Autônomo PARANAPREVIDENCIA
+18;2025;Concorrência Eletrônica (Lei Federal 14.133/2021);2648;2025;UNIOESTE FOZ - Universidade Estadual do Oeste do Paraná - Campus Foz do Iguaçu
+28;2025;Concorrência Eletrônica (Lei Federal 14.133/2021);4413;2025;UNICENTRO - Universidade Estadual do Centro-Oeste
+32;2025;Concorrência Eletrônica (Lei Federal 14.133/2021);4489;2025;FUNDEPAR - Instituto Paranaense de Desenvolvimento Educacional
+48;2025;Concorrência Eletrônica (Lei Federal 14.133/2021);4510;2025;SEMIPI - Secretaria de Estado da Mulher, Igualdade Racial e Pessoa Idosa
+51;2025;Concorrência Eletrônica (Lei Federal 14.133/2021);5601;2025;UNICENTRO - Universidade Estadual do Centro-Oeste
+55;2025;Concorrência Eletrônica (Lei Federal 14.133/2021);5715;2025;UNICENTRO - Universidade Estadual do Centro-Oeste
+1;2025;Contratação Direta - Dispensa (Lei Federal 14.133/2021);1354;2025;PRPREV - Serviço Social Autônomo PARANAPREVIDENCIA
+1;2025;Contratação Direta - Dispensa (Lei Federal 14.133/2021);1355;2025;PRPREV - Serviço Social Autônomo PARANAPREVIDENCIA
+2;2025;Convite;374;2025;UEL - Universidade Estadual de Londrina
+16;2025;Credenciamento;4705;2025;PRPREV - Serviço Social Autônomo PARANAPREVIDENCIA
+1;2025;Licitação Eletrônica - Estatal;1326;2025;COHAPAR - Companhia de Habitação do Paraná
+2;2025;Licitação Eletrônica - Estatal;1578;2025;CELEPAR - Companhia de Tecnologia da Informação e Comunicação do Paraná
+4;2025;Licitação Eletrônica - Estatal;2258;2025;CELEPAR - Companhia de Tecnologia da Informação e Comunicação do Paraná
+4;2025;Licitação Eletrônica - Estatal;2939;2025;CELEPAR - Companhia de Tecnologia da Informação e Comunicação do Paraná
+5;2025;Licitação Eletrônica - Estatal;3490;2025;CELEPAR - Companhia de Tecnologia da Informação e Comunicação do Paraná
+5;2025;Licitação Eletrônica - Estatal;5396;2025;CELEPAR - Companhia de Tecnologia da Informação e Comunicação do Paraná
+9;2025;Licitação Eletrônica - Estatal;2548;2025;CELEPAR - Companhia de Tecnologia da Informação e Comunicação do Paraná
+11;2025;Licitação Eletrônica - Estatal;4469;2025;COHAPAR - Companhia de Habitação do Paraná
+13;2025;Licitação Eletrônica - Estatal;3912;2025;CELEPAR - Companhia de Tecnologia da Informação e Comunicação do Paraná
+14;2025;Licitação Eletrônica - Estatal;4767;2025;COHAPAR - Companhia de Habitação do Paraná
+18;2025;Licitação Eletrônica - Estatal;3996;2025;CELEPAR - Companhia de Tecnologia da Informação e Comunicação do Paraná
+19;2025;Licitação Eletrônica - Estatal;3824;2025;COHAPAR - Companhia de Habitação do Paraná
+27;2025;Licitação Eletrônica - Estatal;5219;2025;CELEPAR - Companhia de Tecnologia da Informação e Comunicação do Paraná
+29;2025;Licitação Eletrônica - Estatal;4116;2025;CELEPAR - Companhia de Tecnologia da Informação e Comunicação do Paraná
+31;2025;Licitação Eletrônica - Estatal;4134;2025;COHAPAR - Companhia de Habitação do Paraná
+34;2025;Licitação Eletrônica - Estatal;3601;2025;COHAPAR - Companhia de Habitação do Paraná
+37;2025;Licitação Eletrônica - Estatal;5540;2025;CELEPAR - Companhia de Tecnologia da Informação e Comunicação do Paraná
+38;2025;Licitação Eletrônica - Estatal;4870;2025;COHAPAR - Companhia de Habitação do Paraná
+50;2025;Licitação Eletrônica - Estatal;5378;2025;COHAPAR - Companhia de Habitação do Paraná
+2;2025;Pregão Eletrônico;284;2025;UEL - Universidade Estadual de Londrina
+2;2025;Pregão Eletrônico;400;2025;UEL - Universidade Estadual de Londrina
+5;2025;Pregão Eletrônico;295;2025;UEL - Universidade Estadual de Londrina
+7;2025;Pregão Eletrônico;268;2025;UEL - Universidade Estadual de Londrina
+8;2025;Pregão Eletrônico;608;2025;UEL - Universidade Estadual de Londrina
+10;2025;Pregão Eletrônico;261;2025;UEL - Universidade Estadual de Londrina
+13;2025;Pregão Eletrônico;433;2025;UEL - Universidade Estadual de Londrina
+14;2025;Pregão Eletrônico;575;2025;UEL - Universidade Estadual de Londrina
+31;2025;Pregão Eletrônico;1947;2025;UEM - Universidade Estadual de Maringá
+40;2025;Pregão Eletrônico;2610;2025;UEM - Universidade Estadual de Maringá
+52;2025;Pregão Eletrônico;3383;2025;UEM - Universidade Estadual de Maringá
+59;2025;Pregão Eletrônico;4313;2025;UEM - Universidade Estadual de Maringá
+60;2025;Pregão Eletrônico;4271;2025;UEM - Universidade Estadual de Maringá
+61;2025;Pregão Eletrônico;4240;2025;UEM - Universidade Estadual de Maringá
+62;2025;Pregão Eletrônico;4168;2025;UEM - Universidade Estadual de Maringá
+64;2025;Pregão Eletrônico;4355;2025;UEM - Universidade Estadual de Maringá
+79;2025;Pregão Eletrônico;5407;2025;UEM - Universidade Estadual de Maringá
+82;2025;Pregão Eletrônico;5699;2025;UEM - Universidade Estadual de Maringá
+83;2025;Pregão Eletrônico;5709;2025;UEM - Universidade Estadual de Maringá
+1;2025;Pregão Eletrônico (Lei Federal 14.133/2021);4962;2025;PMPR-CGPM - Comando Geral da Polícia Militar - SESP
+11;2025;Pregão Eletrônico (Lei Federal 14.133/2021);3477;2025;SEED - Secretaria de Estado da Educação
+11;2025;Pregão Eletrônico (Lei Federal 14.133/2021);3492;2025;SEED - Secretaria de Estado da Educação
+11;2025;Pregão Eletrônico (Lei Federal 14.133/2021);3517;2025;SEED - Secretaria de Estado da Educação
+11;2025;Pregão Eletrônico (Lei Federal 14.133/2021);4137;2025;SEED - Secretaria de Estado da Educação
+11;2025;Pregão Eletrônico (Lei Federal 14.133/2021);5107;2025;SEED - Secretaria de Estado da Educação
+11;2025;Pregão Eletrônico (Lei Federal 14.133/2021);5165;2025;SEED - Secretaria de Estado da Educação
+16;2025;Pregão Eletrônico (Lei Federal 14.133/2021);2286;2025;UEM - Universidade Estadual de Maringá
+16;2025;Pregão Eletrônico (Lei Federal 14.133/2021);2480;2025;UEM - Universidade Estadual de Maringá
+22;2025;Pregão Eletrônico (Lei Federal 14.133/2021);1151;2025;UEM - Universidade Estadual de Maringá
+23;2025;Pregão Eletrônico (Lei Federal 14.133/2021);1730;2025;UEM - Universidade Estadual de Maringá
+24;2025;Pregão Eletrônico (Lei Federal 14.133/2021);944;2025;PRPREV - Serviço Social Autônomo PARANAPREVIDENCIA
+24;2025;Pregão Eletrônico (Lei Federal 14.133/2021);958;2025;PRPREV - Serviço Social Autônomo PARANAPREVIDENCIA
+29;2025;Pregão Eletrônico (Lei Federal 14.133/2021);1462;2025;SEEC - Secretaria de Estado da Cultura (Antigo SECC)
+29;2025;Pregão Eletrônico (Lei Federal 14.133/2021);1838;2025;SEEC - Secretaria de Estado da Cultura (Antigo SECC)
+32;2025;Pregão Eletrônico (Lei Federal 14.133/2021);1955;2025;UEPG-HURCG - Hospital Universitário Regional dos Campos Gerais
+35;2025;Pregão Eletrônico (Lei Federal 14.133/2021);1657;2025;CCTG - Centro Cultural Teatro Guaira
+36;2025;Pregão Eletrônico (Lei Federal 14.133/2021);2563;2025;FUNEAS - Fundação Estatal de Atenção em Saúde do Estado do Paraná
+38;2025;Pregão Eletrônico (Lei Federal 14.133/2021);3555;2025;CBMPR - Corpo de Bombeiros Militar do Paraná (Antigo PMPR-CCB)
+38;2025;Pregão Eletrônico (Lei Federal 14.133/2021);3555;2025;DEPPEN - Departamento de Polícia Penal - SESP (Antigo DEPEN)
+38;2025;Pregão Eletrônico (Lei Federal 14.133/2021);3555;2025;DPC - Departamento de Polícia Civil - SESP
+38;2025;Pregão Eletrônico (Lei Federal 14.133/2021);3555;2025;PMPR-BPChq - Batalhão de Polícia de Choque - SESP
+38;2025;Pregão Eletrônico (Lei Federal 14.133/2021);3555;2025;SESP - Secretaria de Estado da Segurança Pública
+38;2025;Pregão Eletrônico (Lei Federal 14.133/2021);3589;2025;DEPPEN - Departamento de Polícia Penal - SESP (Antigo DEPEN)
+38;2025;Pregão Eletrônico (Lei Federal 14.133/2021);3589;2025;SESP - Secretaria de Estado da Segurança Pública
+38;2025;Pregão Eletrônico (Lei Federal 14.133/2021);3593;2025;DPC - Departamento de Polícia Civil - SESP
+39;2025;Pregão Eletrônico (Lei Federal 14.133/2021);4289;2025;SEAB - Secretaria de Estado da Agricultura e do Abastecimento
+43;2025;Pregão Eletrônico (Lei Federal 14.133/2021);1457;2025;ADAPAR - Agência de Defesa Agropecuária do Paraná
+46;2025;Pregão Eletrônico (Lei Federal 14.133/2021);2142;2025;UNESPAR - Universidade Estadual do Paraná
+46;2025;Pregão Eletrônico (Lei Federal 14.133/2021);2144;2025;UNESPAR - Universidade Estadual do Paraná
+51;2025;Pregão Eletrônico (Lei Federal 14.133/2021);1536;2025;UEM - Universidade Estadual de Maringá
+53;2025;Pregão Eletrônico (Lei Federal 14.133/2021);3443;2025;SESP - Secretaria de Estado da Segurança Pública
+57;2025;Pregão Eletrônico (Lei Federal 14.133/2021);2901;2025;JUCEPAR - Junta Comercial do Paraná
+57;2025;Pregão Eletrônico (Lei Federal 14.133/2021);2903;2025;JUCEPAR - Junta Comercial do Paraná
+57;2025;Pregão Eletrônico (Lei Federal 14.133/2021);4260;2025;JUCEPAR - Junta Comercial do Paraná
+57;2025;Pregão Eletrônico (Lei Federal 14.133/2021);4261;2025;JUCEPAR - Junta Comercial do Paraná
+64;2025;Pregão Eletrônico (Lei Federal 14.133/2021);3405;2025;REPR - Receita Estadual do Paraná (Antigo CRE)
+64;2025;Pregão Eletrônico (Lei Federal 14.133/2021);3409;2025;REPR - Receita Estadual do Paraná (Antigo CRE)
+66;2025;Pregão Eletrônico (Lei Federal 14.133/2021);4003;2025;FUNEAS - Fundação Estatal de Atenção em Saúde do Estado do Paraná
+66;2025;Pregão Eletrônico (Lei Federal 14.133/2021);4005;2025;FUNEAS - Fundação Estatal de Atenção em Saúde do Estado do Paraná
+67;2025;Pregão Eletrônico (Lei Federal 14.133/2021);1812;2025;SEIL - Secretaria de Estado da Infraestrutura e Logística
+68;2025;Pregão Eletrônico (Lei Federal 14.133/2021);4578;2025;FUNEAS - Fundação Estatal de Atenção em Saúde do Estado do Paraná
+68;2025;Pregão Eletrônico (Lei Federal 14.133/2021);4580;2025;FUNEAS - Fundação Estatal de Atenção em Saúde do Estado do Paraná
+68;2025;Pregão Eletrônico (Lei Federal 14.133/2021);4584;2025;FUNEAS - Fundação Estatal de Atenção em Saúde do Estado do Paraná
+68;2025;Pregão Eletrônico (Lei Federal 14.133/2021);4587;2025;FUNEAS - Fundação Estatal de Atenção em Saúde do Estado do Paraná
+68;2025;Pregão Eletrônico (Lei Federal 14.133/2021);4636;2025;FUNEAS - Fundação Estatal de Atenção em Saúde do Estado do Paraná
+71;2025;Pregão Eletrônico (Lei Federal 14.133/2021);1644;2025;ALEP - Assembleia Legislativa do Estado do Paraná
+72;2025;Pregão Eletrônico (Lei Federal 14.133/2021);2450;2025;FUNEAS - Fundação Estatal de Atenção em Saúde do Estado do Paraná
+72;2025;Pregão Eletrônico (Lei Federal 14.133/2021);2453;2025;FUNEAS - Fundação Estatal de Atenção em Saúde do Estado do Paraná
+72;2025;Pregão Eletrônico (Lei Federal 14.133/2021);2455;2025;FUNEAS - Fundação Estatal de Atenção em Saúde do Estado do Paraná
+72;2025;Pregão Eletrônico (Lei Federal 14.133/2021);2456;2025;FUNEAS - Fundação Estatal de Atenção em Saúde do Estado do Paraná
+72;2025;Pregão Eletrônico (Lei Federal 14.133/2021);2606;2025;FUNEAS - Fundação Estatal de Atenção em Saúde do Estado do Paraná
+81;2025;Pregão Eletrônico (Lei Federal 14.133/2021);5710;2025;UEL - Universidade Estadual de Londrina
+81;2025;Pregão Eletrônico (Lei Federal 14.133/2021);5711;2025;UEL - Universidade Estadual de Londrina
+82;2025;Pregão Eletrônico (Lei Federal 14.133/2021);4406;2025;UEL - Universidade Estadual de Londrina
+82;2025;Pregão Eletrônico (Lei Federal 14.133/2021);4407;2025;UEL - Universidade Estadual de Londrina
+82;2025;Pregão Eletrônico (Lei Federal 14.133/2021);4408;2025;UEL - Universidade Estadual de Londrina
+82;2025;Pregão Eletrônico (Lei Federal 14.133/2021);4409;2025;UEL - Universidade Estadual de Londrina
+82;2025;Pregão Eletrônico (Lei Federal 14.133/2021);4410;2025;UEL - Universidade Estadual de Londrina
+82;2025;Pregão Eletrônico (Lei Federal 14.133/2021);4411;2025;UEL - Universidade Estadual de Londrina
+89;2025;Pregão Eletrônico (Lei Federal 14.133/2021);3853;2025;UEL - Universidade Estadual de Londrina
+89;2025;Pregão Eletrônico (Lei Federal 14.133/2021);3854;2025;UEL - Universidade Estadual de Londrina
+89;2025;Pregão Eletrônico (Lei Federal 14.133/2021);3855;2025;UEL - Universidade Estadual de Londrina
+89;2025;Pregão Eletrônico (Lei Federal 14.133/2021);3856;2025;UEL - Universidade Estadual de Londrina
+98;2025;Pregão Eletrônico (Lei Federal 14.133/2021);1214;2025;UNIOESTE MCROND - Universidade Estadual do Oeste do Paraná - Campus Marechal Cândido Rondon
+103;2025;Pregão Eletrônico (Lei Federal 14.133/2021);1973;2025;FUNEAS - Fundação Estatal de Atenção em Saúde do Estado do Paraná
+110;2025;Pregão Eletrônico (Lei Federal 14.133/2021);1681;2025;CBMPR - Corpo de Bombeiros Militar do Paraná (Antigo PMPR-CCB)
+110;2025;Pregão Eletrônico (Lei Federal 14.133/2021);1682;2025;CBMPR - Corpo de Bombeiros Militar do Paraná (Antigo PMPR-CCB)
+119;2025;Pregão Eletrônico (Lei Federal 14.133/2021);4278;2025;UEM - Universidade Estadual de Maringá
+120;2025;Pregão Eletrônico (Lei Federal 14.133/2021);3498;2025;SUBPR-5CRPM - 5° Comando Regional da Polícia Militar - SESP
+120;2025;Pregão Eletrônico (Lei Federal 14.133/2021);3503;2025;SUBPR-5CRPM - 5° Comando Regional da Polícia Militar - SESP
+121;2025;Pregão Eletrônico (Lei Federal 14.133/2021);4190;2025;ADAPAR - Agência de Defesa Agropecuária do Paraná
+121;2025;Pregão Eletrônico (Lei Federal 14.133/2021);4191;2025;ADAPAR - Agência de Defesa Agropecuária do Paraná
+121;2025;Pregão Eletrônico (Lei Federal 14.133/2021);4198;2025;ADAPAR - Agência de Defesa Agropecuária do Paraná
+121;2025;Pregão Eletrônico (Lei Federal 14.133/2021);4201;2025;ADAPAR - Agência de Defesa Agropecuária do Paraná
+121;2025;Pregão Eletrônico (Lei Federal 14.133/2021);4202;2025;ADAPAR - Agência de Defesa Agropecuária do Paraná
+121;2025;Pregão Eletrônico (Lei Federal 14.133/2021);4203;2025;ADAPAR - Agência de Defesa Agropecuária do Paraná
+122;2025;Pregão Eletrônico (Lei Federal 14.133/2021);1855;2025;UENP - Universidade Estadual do Norte do Paraná
+124;2025;Pregão Eletrônico (Lei Federal 14.133/2021);1885;2025;UEM - Universidade Estadual de Maringá
+128;2025;Pregão Eletrônico (Lei Federal 14.133/2021);4893;2025;PMPR-HPM - Hospital da Polícia Militar - SESP
+129;2025;Pregão Eletrônico (Lei Federal 14.133/2021);3916;2025;CEDEC - Coordenadoria Estadual de Defesa Civil
+129;2025;Pregão Eletrônico (Lei Federal 14.133/2021);3916;2025;SECID - Secretaria de Estado das Cidades (Antigo SEDU)
+131;2025;Pregão Eletrônico (Lei Federal 14.133/2021);4061;2025;SESA-FUNSAUDE - Fundo Estadual de Saúde do Paraná - FUNSAUDE
+131;2025;Pregão Eletrônico (Lei Federal 14.133/2021);4062;2025;SESA-FUNSAUDE - Fundo Estadual de Saúde do Paraná - FUNSAUDE
+135;2025;Pregão Eletrônico (Lei Federal 14.133/2021);1944;2025;UEPG-HURCG - Hospital Universitário Regional dos Campos Gerais
+141;2025;Pregão Eletrônico (Lei Federal 14.133/2021);5172;2025;ADAPAR - Agência de Defesa Agropecuária do Paraná
+141;2025;Pregão Eletrônico (Lei Federal 14.133/2021);5173;2025;ADAPAR - Agência de Defesa Agropecuária do Paraná
+141;2025;Pregão Eletrônico (Lei Federal 14.133/2021);5174;2025;ADAPAR - Agência de Defesa Agropecuária do Paraná
+142;2025;Pregão Eletrônico (Lei Federal 14.133/2021);5588;2025;UEL - Universidade Estadual de Londrina
+144;2025;Pregão Eletrônico (Lei Federal 14.133/2021);3682;2025;ADAPAR - Agência de Defesa Agropecuária do Paraná
+146;2025;Pregão Eletrônico (Lei Federal 14.133/2021);5320;2025;UEL - Universidade Estadual de Londrina
+148;2025;Pregão Eletrônico (Lei Federal 14.133/2021);3077;2025;UEPG-HURCG - Hospital Universitário Regional dos Campos Gerais
+151;2025;Pregão Eletrônico (Lei Federal 14.133/2021);2169;2025;SESA-FUNSAUDE - Fundo Estadual de Saúde do Paraná - FUNSAUDE
+152;2025;Pregão Eletrônico (Lei Federal 14.133/2021);3763;2025;DER - Departamento de Estradas de Rodagem do Estado do Paraná
+153;2025;Pregão Eletrônico (Lei Federal 14.133/2021);2967;2025;ADAPAR - Agência de Defesa Agropecuária do Paraná
+153;2025;Pregão Eletrônico (Lei Federal 14.133/2021);3066;2025;ADAPAR - Agência de Defesa Agropecuária do Paraná
+157;2025;Pregão Eletrônico (Lei Federal 14.133/2021);1924;2025;IAT - Instituto Água e Terra (Antigo IAP)
+158;2025;Pregão Eletrônico (Lei Federal 14.133/2021);2428;2025;ADAPAR - Agência de Defesa Agropecuária do Paraná
+159;2025;Pregão Eletrônico (Lei Federal 14.133/2021);4639;2025;FUNEAS - Fundação Estatal de Atenção em Saúde do Estado do Paraná
+160;2025;Pregão Eletrônico (Lei Federal 14.133/2021);3050;2025;UEPG-HURCG - Hospital Universitário Regional dos Campos Gerais
+165;2025;Pregão Eletrônico (Lei Federal 14.133/2021);4133;2025;UEPG-HURCG - Hospital Universitário Regional dos Campos Gerais
+170;2025;Pregão Eletrônico (Lei Federal 14.133/2021);2511;2025;SEFA - Secretaria de Estado da Fazenda
+171;2025;Pregão Eletrônico (Lei Federal 14.133/2021);3709;2025;ADAPAR - Agência de Defesa Agropecuária do Paraná
+172;2025;Pregão Eletrônico (Lei Federal 14.133/2021);3238;2025;UEPG-HURCG - Hospital Universitário Regional dos Campos Gerais
+172;2025;Pregão Eletrônico (Lei Federal 14.133/2021);3239;2025;UEPG-HURCG - Hospital Universitário Regional dos Campos Gerais
+172;2025;Pregão Eletrônico (Lei Federal 14.133/2021);3241;2025;UEPG-HURCG - Hospital Universitário Regional dos Campos Gerais
+172;2025;Pregão Eletrônico (Lei Federal 14.133/2021);3246;2025;UEPG-HURCG - Hospital Universitário Regional dos Campos Gerais
+172;2025;Pregão Eletrônico (Lei Federal 14.133/2021);3247;2025;UEPG-HURCG - Hospital Universitário Regional dos Campos Gerais
+172;2025;Pregão Eletrônico (Lei Federal 14.133/2021);3248;2025;UEPG-HURCG - Hospital Universitário Regional dos Campos Gerais
+172;2025;Pregão Eletrônico (Lei Federal 14.133/2021);3249;2025;UEPG-HURCG - Hospital Universitário Regional dos Campos Gerais
+172;2025;Pregão Eletrônico (Lei Federal 14.133/2021);3250;2025;UEPG-HURCG - Hospital Universitário Regional dos Campos Gerais
+172;2025;Pregão Eletrônico (Lei Federal 14.133/2021);3427;2025;UEPG-HURCG - Hospital Universitário Regional dos Campos Gerais
+173;2025;Pregão Eletrônico (Lei Federal 14.133/2021);4926;2025;FUNEAS - Fundação Estatal de Atenção em Saúde do Estado do Paraná
+176;2025;Pregão Eletrônico (Lei Federal 14.133/2021);4401;2025;ADAPAR - Agência de Defesa Agropecuária do Paraná
+178;2025;Pregão Eletrônico (Lei Federal 14.133/2021);3691;2025;ADAPAR - Agência de Defesa Agropecuária do Paraná
+180;2025;Pregão Eletrônico (Lei Federal 14.133/2021);2751;2025;UEL - Universidade Estadual de Londrina
+181;2025;Pregão Eletrônico (Lei Federal 14.133/2021);4117;2025;UEL - Universidade Estadual de Londrina
+188;2025;Pregão Eletrônico (Lei Federal 14.133/2021);3895;2025;UNIOESTE REITOR - Universidade Estadual do Oeste do Paraná - Reitoria
+189;2025;Pregão Eletrônico (Lei Federal 14.133/2021);5108;2025;ADAPAR - Agência de Defesa Agropecuária do Paraná
+189;2025;Pregão Eletrônico (Lei Federal 14.133/2021);5110;2025;ADAPAR - Agência de Defesa Agropecuária do Paraná
+189;2025;Pregão Eletrônico (Lei Federal 14.133/2021);5138;2025;ADAPAR - Agência de Defesa Agropecuária do Paraná
+190;2025;Pregão Eletrônico (Lei Federal 14.133/2021);2132;2025;PRESP - Paraná Esporte (Antigo IPCE)
+190;2025;Pregão Eletrônico (Lei Federal 14.133/2021);2133;2025;PRESP - Paraná Esporte (Antigo IPCE)
+190;2025;Pregão Eletrônico (Lei Federal 14.133/2021);2134;2025;PRESP - Paraná Esporte (Antigo IPCE)
+190;2025;Pregão Eletrônico (Lei Federal 14.133/2021);2135;2025;PRESP - Paraná Esporte (Antigo IPCE)
+190;2025;Pregão Eletrônico (Lei Federal 14.133/2021);2136;2025;PRESP - Paraná Esporte (Antigo IPCE)
+190;2025;Pregão Eletrônico (Lei Federal 14.133/2021);2137;2025;PRESP - Paraná Esporte (Antigo IPCE)
+190;2025;Pregão Eletrônico (Lei Federal 14.133/2021);2138;2025;PRESP - Paraná Esporte (Antigo IPCE)
+190;2025;Pregão Eletrônico (Lei Federal 14.133/2021);2139;2025;PRESP - Paraná Esporte (Antigo IPCE)
+190;2025;Pregão Eletrônico (Lei Federal 14.133/2021);2141;2025;PRESP - Paraná Esporte (Antigo IPCE)
+191;2025;Pregão Eletrônico (Lei Federal 14.133/2021);1916;2025;ALEP - Assembleia Legislativa do Estado do Paraná
+194;2025;Pregão Eletrônico (Lei Federal 14.133/2021);5698;2025;ADAPAR - Agência de Defesa Agropecuária do Paraná
+194;2025;Pregão Eletrônico (Lei Federal 14.133/2021);5706;2025;ADAPAR - Agência de Defesa Agropecuária do Paraná
+198;2025;Pregão Eletrônico (Lei Federal 14.133/2021);4611;2025;UEL - Universidade Estadual de Londrina
+198;2025;Pregão Eletrônico (Lei Federal 14.133/2021);4613;2025;UEL - Universidade Estadual de Londrina
+198;2025;Pregão Eletrônico (Lei Federal 14.133/2021);4614;2025;UEL - Universidade Estadual de Londrina
+198;2025;Pregão Eletrônico (Lei Federal 14.133/2021);4615;2025;UEL - Universidade Estadual de Londrina
+198;2025;Pregão Eletrônico (Lei Federal 14.133/2021);4616;2025;UEL - Universidade Estadual de Londrina
+200;2025;Pregão Eletrônico (Lei Federal 14.133/2021);2113;2025;UEPG-HURCG - Hospital Universitário Regional dos Campos Gerais
+202;2025;Pregão Eletrônico (Lei Federal 14.133/2021);4471;2025;PRESP - Paraná Esporte (Antigo IPCE)
+202;2025;Pregão Eletrônico (Lei Federal 14.133/2021);4472;2025;PRESP - Paraná Esporte (Antigo IPCE)
+202;2025;Pregão Eletrônico (Lei Federal 14.133/2021);4473;2025;PRESP - Paraná Esporte (Antigo IPCE)
+202;2025;Pregão Eletrônico (Lei Federal 14.133/2021);4474;2025;PRESP - Paraná Esporte (Antigo IPCE)
+202;2025;Pregão Eletrônico (Lei Federal 14.133/2021);4475;2025;PRESP - Paraná Esporte (Antigo IPCE)
+202;2025;Pregão Eletrônico (Lei Federal 14.133/2021);4488;2025;PRESP - Paraná Esporte (Antigo IPCE)
+202;2025;Pregão Eletrônico (Lei Federal 14.133/2021);5598;2025;PRESP - Paraná Esporte (Antigo IPCE)
+202;2025;Pregão Eletrônico (Lei Federal 14.133/2021);5599;2025;PRESP - Paraná Esporte (Antigo IPCE)
+203;2025;Pregão Eletrônico (Lei Federal 14.133/2021);4193;2025;ALEP - Assembleia Legislativa do Estado do Paraná
+205;2025;Pregão Eletrônico (Lei Federal 14.133/2021);2287;2025;UEL - Universidade Estadual de Londrina
+206;2025;Pregão Eletrônico (Lei Federal 14.133/2021);4126;2025;UEL - Universidade Estadual de Londrina
+207;2025;Pregão Eletrônico (Lei Federal 14.133/2021);3146;2025;UEL - Universidade Estadual de Londrina
+208;2025;Pregão Eletrônico (Lei Federal 14.133/2021);3521;2025;UEPG-HURCG - Hospital Universitário Regional dos Campos Gerais
+208;2025;Pregão Eletrônico (Lei Federal 14.133/2021);3522;2025;UEPG-HURCG - Hospital Universitário Regional dos Campos Gerais
+208;2025;Pregão Eletrônico (Lei Federal 14.133/2021);3527;2025;UEPG-HURCG - Hospital Universitário Regional dos Campos Gerais
+208;2025;Pregão Eletrônico (Lei Federal 14.133/2021);3528;2025;UEPG-HURCG - Hospital Universitário Regional dos Campos Gerais
+208;2025;Pregão Eletrônico (Lei Federal 14.133/2021);3529;2025;UEPG-HURCG - Hospital Universitário Regional dos Campos Gerais
+208;2025;Pregão Eletrônico (Lei Federal 14.133/2021);3531;2025;UEPG-HURCG - Hospital Universitário Regional dos Campos Gerais
+208;2025;Pregão Eletrônico (Lei Federal 14.133/2021);3532;2025;UEPG-HURCG - Hospital Universitário Regional dos Campos Gerais
+208;2025;Pregão Eletrônico (Lei Federal 14.133/2021);3533;2025;UEPG-HURCG - Hospital Universitário Regional dos Campos Gerais
+209;2025;Pregão Eletrônico (Lei Federal 14.133/2021);3295;2025;UEL - Universidade Estadual de Londrina
+209;2025;Pregão Eletrônico (Lei Federal 14.133/2021);3296;2025;UEL - Universidade Estadual de Londrina
+209;2025;Pregão Eletrônico (Lei Federal 14.133/2021);3297;2025;UEL - Universidade Estadual de Londrina
+209;2025;Pregão Eletrônico (Lei Federal 14.133/2021);3298;2025;UEL - Universidade Estadual de Londrina
+209;2025;Pregão Eletrônico (Lei Federal 14.133/2021);3299;2025;UEL - Universidade Estadual de Londrina
+209;2025;Pregão Eletrônico (Lei Federal 14.133/2021);3300;2025;UEL - Universidade Estadual de Londrina
+209;2025;Pregão Eletrônico (Lei Federal 14.133/2021);3301;2025;UEL - Universidade Estadual de Londrina
+209;2025;Pregão Eletrônico (Lei Federal 14.133/2021);3302;2025;UEL - Universidade Estadual de Londrina
+210;2025;Pregão Eletrônico (Lei Federal 14.133/2021);4485;2025;UEL - Universidade Estadual de Londrina
+213;2025;Pregão Eletrônico (Lei Federal 14.133/2021);2536;2025;SEFA - Secretaria de Estado da Fazenda
+213;2025;Pregão Eletrônico (Lei Federal 14.133/2021);3718;2025;SEFA - Secretaria de Estado da Fazenda
+214;2025;Pregão Eletrônico (Lei Federal 14.133/2021);1776;2025;UNIOESTE TOLEDO - Universidade Estadual do Oeste do Paraná - Campus Toledo
+214;2025;Pregão Eletrônico (Lei Federal 14.133/2021);1777;2025;UNIOESTE TOLEDO - Universidade Estadual do Oeste do Paraná - Campus Toledo
+215;2025;Pregão Eletrônico (Lei Federal 14.133/2021);2451;2025;UEPG-HURCG - Hospital Universitário Regional dos Campos Gerais
+215;2025;Pregão Eletrônico (Lei Federal 14.133/2021);2458;2025;UEPG-HURCG - Hospital Universitário Regional dos Campos Gerais
+218;2025;Pregão Eletrônico (Lei Federal 14.133/2021);2504;2025;UENP - Universidade Estadual do Norte do Paraná
+222;2025;Pregão Eletrônico (Lei Federal 14.133/2021);2027;2025;UEL - Universidade Estadual de Londrina
+223;2025;Pregão Eletrônico (Lei Federal 14.133/2021);2305;2025;UENP - Universidade Estadual do Norte do Paraná
+223;2025;Pregão Eletrônico (Lei Federal 14.133/2021);2310;2025;UENP - Universidade Estadual do Norte do Paraná
+228;2025;Pregão Eletrônico (Lei Federal 14.133/2021);2998;2025;DEPPEN - Departamento de Polícia Penal - SESP (Antigo DEPEN)
+228;2025;Pregão Eletrônico (Lei Federal 14.133/2021);2998;2025;DPC - Departamento de Polícia Civil - SESP
+228;2025;Pregão Eletrônico (Lei Federal 14.133/2021);2998;2025;PMPR-DAL - Diretoria de Apoio Logístico e Finanças da PMPR - SESP
+228;2025;Pregão Eletrônico (Lei Federal 14.133/2021);2998;2025;SESP - Secretaria de Estado da Segurança Pública
+228;2025;Pregão Eletrônico (Lei Federal 14.133/2021);2999;2025;PMPR-DAL - Diretoria de Apoio Logístico e Finanças da PMPR - SESP
+228;2025;Pregão Eletrônico (Lei Federal 14.133/2021);4480;2025;CBMPR - Corpo de Bombeiros Militar do Paraná (Antigo PMPR-CCB)
+228;2025;Pregão Eletrônico (Lei Federal 14.133/2021);4480;2025;SESP - Secretaria de Estado da Segurança Pública
+231;2025;Pregão Eletrônico (Lei Federal 14.133/2021);3252;2025;UEM - Universidade Estadual de Maringá
+241;2025;Pregão Eletrônico (Lei Federal 14.133/2021);3923;2025;DER - Departamento de Estradas de Rodagem do Estado do Paraná
+242;2025;Pregão Eletrônico (Lei Federal 14.133/2021);3458;2025;UEL - Universidade Estadual de Londrina
+242;2025;Pregão Eletrônico (Lei Federal 14.133/2021);3459;2025;UEL - Universidade Estadual de Londrina
+242;2025;Pregão Eletrônico (Lei Federal 14.133/2021);3460;2025;UEL - Universidade Estadual de Londrina
+242;2025;Pregão Eletrônico (Lei Federal 14.133/2021);3465;2025;UEL - Universidade Estadual de Londrina
+242;2025;Pregão Eletrônico (Lei Federal 14.133/2021);3466;2025;UEL - Universidade Estadual de Londrina
+242;2025;Pregão Eletrônico (Lei Federal 14.133/2021);3467;2025;UEL - Universidade Estadual de Londrina
+242;2025;Pregão Eletrônico (Lei Federal 14.133/2021);3468;2025;UEL - Universidade Estadual de Londrina
+242;2025;Pregão Eletrônico (Lei Federal 14.133/2021);3469;2025;UEL - Universidade Estadual de Londrina
+243;2025;Pregão Eletrônico (Lei Federal 14.133/2021);5191;2025;AGEPAR - Agência Reguladora de Serviços Públicos Delegados do Paraná
+244;2025;Pregão Eletrônico (Lei Federal 14.133/2021);3220;2025;UEL - Universidade Estadual de Londrina
+244;2025;Pregão Eletrônico (Lei Federal 14.133/2021);3221;2025;UEL - Universidade Estadual de Londrina
+246;2025;Pregão Eletrônico (Lei Federal 14.133/2021);2351;2025;UEM - Universidade Estadual de Maringá
+250;2025;Pregão Eletrônico (Lei Federal 14.133/2021);3343;2025;SESA-FUNSAUDE - Fundo Estadual de Saúde do Paraná - FUNSAUDE
+250;2025;Pregão Eletrônico (Lei Federal 14.133/2021);3345;2025;SESA-FUNSAUDE - Fundo Estadual de Saúde do Paraná - FUNSAUDE
+267;2025;Pregão Eletrônico (Lei Federal 14.133/2021);2977;2025;UEPG-HURCG - Hospital Universitário Regional dos Campos Gerais
+270;2025;Pregão Eletrônico (Lei Federal 14.133/2021);3603;2025;SEEC - Secretaria de Estado da Cultura (Antigo SECC)
+270;2025;Pregão Eletrônico (Lei Federal 14.133/2021);3607;2025;SEEC - Secretaria de Estado da Cultura (Antigo SECC)
+270;2025;Pregão Eletrônico (Lei Federal 14.133/2021);3612;2025;SEEC - Secretaria de Estado da Cultura (Antigo SECC)
+270;2025;Pregão Eletrônico (Lei Federal 14.133/2021);3617;2025;SEEC - Secretaria de Estado da Cultura (Antigo SECC)
+270;2025;Pregão Eletrônico (Lei Federal 14.133/2021);3626;2025;SEEC - Secretaria de Estado da Cultura (Antigo SECC)
+270;2025;Pregão Eletrônico (Lei Federal 14.133/2021);3628;2025;SEEC - Secretaria de Estado da Cultura (Antigo SECC)
+271;2025;Pregão Eletrônico (Lei Federal 14.133/2021);1226;2025;PRPREV - Serviço Social Autônomo PARANAPREVIDENCIA
+272;2025;Pregão Eletrônico (Lei Federal 14.133/2021);3292;2025;FUNEAS - Fundação Estatal de Atenção em Saúde do Estado do Paraná
+276;2025;Pregão Eletrônico (Lei Federal 14.133/2021);2545;2025;UENP - Universidade Estadual do Norte do Paraná
+278;2025;Pregão Eletrônico (Lei Federal 14.133/2021);2665;2025;UEPG-HURCG - Hospital Universitário Regional dos Campos Gerais
+278;2025;Pregão Eletrônico (Lei Federal 14.133/2021);2667;2025;UEPG-HURCG - Hospital Universitário Regional dos Campos Gerais
+278;2025;Pregão Eletrônico (Lei Federal 14.133/2021);2668;2025;UEPG-HURCG - Hospital Universitário Regional dos Campos Gerais
+278;2025;Pregão Eletrônico (Lei Federal 14.133/2021);2669;2025;UEPG-HURCG - Hospital Universitário Regional dos Campos Gerais
+278;2025;Pregão Eletrônico (Lei Federal 14.133/2021);2670;2025;UEPG-HURCG - Hospital Universitário Regional dos Campos Gerais
+278;2025;Pregão Eletrônico (Lei Federal 14.133/2021);2671;2025;UEPG-HURCG - Hospital Universitário Regional dos Campos Gerais
+278;2025;Pregão Eletrônico (Lei Federal 14.133/2021);2899;2025;UEPG-HURCG - Hospital Universitário Regional dos Campos Gerais
+278;2025;Pregão Eletrônico (Lei Federal 14.133/2021);3225;2025;UEPG-HURCG - Hospital Universitário Regional dos Campos Gerais
+278;2025;Pregão Eletrônico (Lei Federal 14.133/2021);3228;2025;UEPG-HURCG - Hospital Universitário Regional dos Campos Gerais
+282;2025;Pregão Eletrônico (Lei Federal 14.133/2021);2201;2025;UNIOESTE HUOP - Universidade Estadual do Oeste do Paraná - Hospital Universitário do Oeste do Paraná
+291;2025;Pregão Eletrônico (Lei Federal 14.133/2021);3926;2025;DER - Departamento de Estradas de Rodagem do Estado do Paraná
+292;2025;Pregão Eletrônico (Lei Federal 14.133/2021);4965;2025;UEL - Universidade Estadual de Londrina
+292;2025;Pregão Eletrônico (Lei Federal 14.133/2021);4966;2025;UEL - Universidade Estadual de Londrina
+292;2025;Pregão Eletrônico (Lei Federal 14.133/2021);4967;2025;UEL - Universidade Estadual de Londrina
+294;2025;Pregão Eletrônico (Lei Federal 14.133/2021);4189;2025;ALEP - Assembleia Legislativa do Estado do Paraná
+299;2025;Pregão Eletrônico (Lei Federal 14.133/2021);5535;2025;UEPG-HURCG - Hospital Universitário Regional dos Campos Gerais
+299;2025;Pregão Eletrônico (Lei Federal 14.133/2021);5537;2025;UEPG-HURCG - Hospital Universitário Regional dos Campos Gerais
+299;2025;Pregão Eletrônico (Lei Federal 14.133/2021);5538;2025;UEPG-HURCG - Hospital Universitário Regional dos Campos Gerais
+299;2025;Pregão Eletrônico (Lei Federal 14.133/2021);5539;2025;UEPG-HURCG - Hospital Universitário Regional dos Campos Gerais
+301;2025;Pregão Eletrônico (Lei Federal 14.133/2021);2766;2025;UEM - Universidade Estadual de Maringá
+302;2025;Pregão Eletrônico (Lei Federal 14.133/2021);2538;2025;SEJU - Secretaria de Estado da Justiça e Cidadania (Antigo SEJUF)
+304;2025;Pregão Eletrônico (Lei Federal 14.133/2021);2838;2025;UEPG-HURCG - Hospital Universitário Regional dos Campos Gerais
+310;2025;Pregão Eletrônico (Lei Federal 14.133/2021);3870;2025;UENP - Universidade Estadual do Norte do Paraná
+310;2025;Pregão Eletrônico (Lei Federal 14.133/2021);3881;2025;UENP - Universidade Estadual do Norte do Paraná
+310;2025;Pregão Eletrônico (Lei Federal 14.133/2021);3892;2025;UENP - Universidade Estadual do Norte do Paraná
+310;2025;Pregão Eletrônico (Lei Federal 14.133/2021);3902;2025;UENP - Universidade Estadual do Norte do Paraná
+310;2025;Pregão Eletrônico (Lei Federal 14.133/2021);3903;2025;UENP - Universidade Estadual do Norte do Paraná
+310;2025;Pregão Eletrônico (Lei Federal 14.133/2021);3904;2025;UENP - Universidade Estadual do Norte do Paraná
+310;2025;Pregão Eletrônico (Lei Federal 14.133/2021);3906;2025;UENP - Universidade Estadual do Norte do Paraná
+314;2025;Pregão Eletrônico (Lei Federal 14.133/2021);3494;2025;PRPREV - Serviço Social Autônomo PARANAPREVIDENCIA
+315;2025;Pregão Eletrônico (Lei Federal 14.133/2021);4097;2025;PRPREV - Serviço Social Autônomo PARANAPREVIDENCIA
+315;2025;Pregão Eletrônico (Lei Federal 14.133/2021);4159;2025;PRPREV - Serviço Social Autônomo PARANAPREVIDENCIA
+315;2025;Pregão Eletrônico (Lei Federal 14.133/2021);4160;2025;PRPREV - Serviço Social Autônomo PARANAPREVIDENCIA
+315;2025;Pregão Eletrônico (Lei Federal 14.133/2021);4166;2025;PRPREV - Serviço Social Autônomo PARANAPREVIDENCIA
+317;2025;Pregão Eletrônico (Lei Federal 14.133/2021);4209;2025;FUNEAS - Fundação Estatal de Atenção em Saúde do Estado do Paraná
+319;2025;Pregão Eletrônico (Lei Federal 14.133/2021);4521;2025;FUNEAS - Fundação Estatal de Atenção em Saúde do Estado do Paraná
+326;2025;Pregão Eletrônico (Lei Federal 14.133/2021);3104;2025;FUNEAS - Fundação Estatal de Atenção em Saúde do Estado do Paraná
+328;2025;Pregão Eletrônico (Lei Federal 14.133/2021);3605;2025;FUNEAS - Fundação Estatal de Atenção em Saúde do Estado do Paraná
+328;2025;Pregão Eletrônico (Lei Federal 14.133/2021);3679;2025;FUNEAS - Fundação Estatal de Atenção em Saúde do Estado do Paraná
+330;2025;Pregão Eletrônico (Lei Federal 14.133/2021);4379;2025;UEM - Universidade Estadual de Maringá
+334;2025;Pregão Eletrônico (Lei Federal 14.133/2021);5133;2025;FUNEAS - Fundação Estatal de Atenção em Saúde do Estado do Paraná
+335;2025;Pregão Eletrônico (Lei Federal 14.133/2021);2928;2025;UNIOESTE TOLEDO - Universidade Estadual do Oeste do Paraná - Campus Toledo
+342;2025;Pregão Eletrônico (Lei Federal 14.133/2021);4628;2025;SUBPR-2CRPM - 2° Comando Regional da Polícia Militar - SESP
+342;2025;Pregão Eletrônico (Lei Federal 14.133/2021);4883;2025;SUBPR-2CRPM - 2° Comando Regional da Polícia Militar - SESP
+344;2025;Pregão Eletrônico (Lei Federal 14.133/2021);4243;2025;SEAB - Secretaria de Estado da Agricultura e do Abastecimento
+345;2025;Pregão Eletrônico (Lei Federal 14.133/2021);4428;2025;JUCEPAR - Junta Comercial do Paraná
+349;2025;Pregão Eletrônico (Lei Federal 14.133/2021);2485;2025;UNIOESTE MCROND - Universidade Estadual do Oeste do Paraná - Campus Marechal Cândido Rondon
+350;2025;Pregão Eletrônico (Lei Federal 14.133/2021);4839;2025;SESA-FUNSAUDE - Fundo Estadual de Saúde do Paraná - FUNSAUDE
+351;2025;Pregão Eletrônico (Lei Federal 14.133/2021);4816;2025;SECOM - Secretaria de Estado da Comunicação
+352;2025;Pregão Eletrônico (Lei Federal 14.133/2021);4670;2025;SECOM - Secretaria de Estado da Comunicação
+355;2025;Pregão Eletrônico (Lei Federal 14.133/2021);5295;2025;UEPG-HURCG - Hospital Universitário Regional dos Campos Gerais
+359;2025;Pregão Eletrônico (Lei Federal 14.133/2021);3042;2025;JUCEPAR - Junta Comercial do Paraná
+364;2025;Pregão Eletrônico (Lei Federal 14.133/2021);3305;2025;UNIOESTE HUOP - Universidade Estadual do Oeste do Paraná - Hospital Universitário do Oeste do Paraná
+371;2025;Pregão Eletrônico (Lei Federal 14.133/2021);3982;2025;PRPREV - Serviço Social Autônomo PARANAPREVIDENCIA
+371;2025;Pregão Eletrônico (Lei Federal 14.133/2021);4047;2025;PRPREV - Serviço Social Autônomo PARANAPREVIDENCIA
+374;2025;Pregão Eletrônico (Lei Federal 14.133/2021);2875;2025;UNIOESTE MCROND - Universidade Estadual do Oeste do Paraná - Campus Marechal Cândido Rondon
+379;2025;Pregão Eletrônico (Lei Federal 14.133/2021);3005;2025;UEPG-HURCG - Hospital Universitário Regional dos Campos Gerais
+382;2025;Pregão Eletrônico (Lei Federal 14.133/2021);4130;2025;UEM - Universidade Estadual de Maringá
+384;2025;Pregão Eletrônico (Lei Federal 14.133/2021);3303;2025;UEL - Universidade Estadual de Londrina
+384;2025;Pregão Eletrônico (Lei Federal 14.133/2021);3304;2025;UEL - Universidade Estadual de Londrina
+385;2025;Pregão Eletrônico (Lei Federal 14.133/2021);3932;2025;UEL - Universidade Estadual de Londrina
+387;2025;Pregão Eletrônico (Lei Federal 14.133/2021);3981;2025;UEPG - Universidade Estadual de Ponta Grossa
+387;2025;Pregão Eletrônico (Lei Federal 14.133/2021);3997;2025;UEPG - Universidade Estadual de Ponta Grossa
+388;2025;Pregão Eletrônico (Lei Federal 14.133/2021);3697;2025;CASA MILITAR - Casa Militar do Estado do Paraná
+389;2025;Pregão Eletrônico (Lei Federal 14.133/2021);4623;2025;UNICENTRO - Universidade Estadual do Centro-Oeste
+390;2025;Pregão Eletrônico (Lei Federal 14.133/2021);3293;2025;UEPG-HURCG - Hospital Universitário Regional dos Campos Gerais
+400;2025;Pregão Eletrônico (Lei Federal 14.133/2021);4136;2025;UEL - Universidade Estadual de Londrina
+404;2025;Pregão Eletrônico (Lei Federal 14.133/2021);3060;2025;UEPG-HURCG - Hospital Universitário Regional dos Campos Gerais
+408;2025;Pregão Eletrônico (Lei Federal 14.133/2021);2971;2025;UNIOESTE MCROND - Universidade Estadual do Oeste do Paraná - Campus Marechal Cândido Rondon
+413;2025;Pregão Eletrônico (Lei Federal 14.133/2021);3067;2025;UNIOESTE MCROND - Universidade Estadual do Oeste do Paraná - Campus Marechal Cândido Rondon
+414;2025;Pregão Eletrônico (Lei Federal 14.133/2021);4315;2025;FUNEAS - Fundação Estatal de Atenção em Saúde do Estado do Paraná
+418;2025;Pregão Eletrônico (Lei Federal 14.133/2021);5099;2025;UEM - Universidade Estadual de Maringá
+418;2025;Pregão Eletrônico (Lei Federal 14.133/2021);5113;2025;UEM - Universidade Estadual de Maringá
+418;2025;Pregão Eletrônico (Lei Federal 14.133/2021);5114;2025;UEM - Universidade Estadual de Maringá
+418;2025;Pregão Eletrônico (Lei Federal 14.133/2021);5118;2025;UEM - Universidade Estadual de Maringá
+418;2025;Pregão Eletrônico (Lei Federal 14.133/2021);5122;2025;UEM - Universidade Estadual de Maringá
+418;2025;Pregão Eletrônico (Lei Federal 14.133/2021);5126;2025;UEM - Universidade Estadual de Maringá
+418;2025;Pregão Eletrônico (Lei Federal 14.133/2021);5128;2025;UEM - Universidade Estadual de Maringá
+425;2025;Pregão Eletrônico (Lei Federal 14.133/2021);3919;2025;JUCEPAR - Junta Comercial do Paraná
+426;2025;Pregão Eletrônico (Lei Federal 14.133/2021);4146;2025;JUCEPAR - Junta Comercial do Paraná
+427;2025;Pregão Eletrônico (Lei Federal 14.133/2021);5163;2025;SESA-FUNSAUDE - Fundo Estadual de Saúde do Paraná - FUNSAUDE
+433;2025;Pregão Eletrônico (Lei Federal 14.133/2021);4784;2025;UEPG-HURCG - Hospital Universitário Regional dos Campos Gerais
+440;2025;Pregão Eletrônico (Lei Federal 14.133/2021);4842;2025;UEL - Universidade Estadual de Londrina
+448;2025;Pregão Eletrônico (Lei Federal 14.133/2021);4936;2025;FUNEAS - Fundação Estatal de Atenção em Saúde do Estado do Paraná
+448;2025;Pregão Eletrônico (Lei Federal 14.133/2021);4937;2025;FUNEAS - Fundação Estatal de Atenção em Saúde do Estado do Paraná
+451;2025;Pregão Eletrônico (Lei Federal 14.133/2021);4891;2025;CASA MILITAR - Casa Militar do Estado do Paraná
+457;2025;Pregão Eletrônico (Lei Federal 14.133/2021);4740;2025;UEL - Universidade Estadual de Londrina
+462;2025;Pregão Eletrônico (Lei Federal 14.133/2021);4565;2025;DETRAN - Departamento de Trânsito do Estado do Paraná
+464;2025;Pregão Eletrônico (Lei Federal 14.133/2021);3993;2025;UENP - Universidade Estadual do Norte do Paraná
+464;2025;Pregão Eletrônico (Lei Federal 14.133/2021);3995;2025;UENP - Universidade Estadual do Norte do Paraná
+468;2025;Pregão Eletrônico (Lei Federal 14.133/2021);3334;2025;CASA MILITAR - Casa Militar do Estado do Paraná
+468;2025;Pregão Eletrônico (Lei Federal 14.133/2021);3336;2025;CASA MILITAR - Casa Militar do Estado do Paraná
+468;2025;Pregão Eletrônico (Lei Federal 14.133/2021);3338;2025;CASA MILITAR - Casa Militar do Estado do Paraná
+468;2025;Pregão Eletrônico (Lei Federal 14.133/2021);3339;2025;CASA MILITAR - Casa Militar do Estado do Paraná
+470;2025;Pregão Eletrônico (Lei Federal 14.133/2021);4195;2025;UEL - Universidade Estadual de Londrina
+473;2025;Pregão Eletrônico (Lei Federal 14.133/2021);5368;2025;SESA-FUNSAUDE - Fundo Estadual de Saúde do Paraná - FUNSAUDE
+477;2025;Pregão Eletrônico (Lei Federal 14.133/2021);5764;2025;UEL - Universidade Estadual de Londrina
+477;2025;Pregão Eletrônico (Lei Federal 14.133/2021);5767;2025;UEL - Universidade Estadual de Londrina
+477;2025;Pregão Eletrônico (Lei Federal 14.133/2021);5768;2025;UEL - Universidade Estadual de Londrina
+477;2025;Pregão Eletrônico (Lei Federal 14.133/2021);5769;2025;UEL - Universidade Estadual de Londrina
+479;2025;Pregão Eletrônico (Lei Federal 14.133/2021);4575;2025;PRESP - Paraná Esporte (Antigo IPCE)
+480;2025;Pregão Eletrônico (Lei Federal 14.133/2021);4149;2025;UEPG-HURCG - Hospital Universitário Regional dos Campos Gerais
+481;2025;Pregão Eletrônico (Lei Federal 14.133/2021);3623;2025;UEPG-HURCG - Hospital Universitário Regional dos Campos Gerais
+482;2025;Pregão Eletrônico (Lei Federal 14.133/2021);3003;2025;CASA MILITAR - Casa Militar do Estado do Paraná
+483;2025;Pregão Eletrônico (Lei Federal 14.133/2021);4793;2025;SESA-FUNSAUDE - Fundo Estadual de Saúde do Paraná - FUNSAUDE
+483;2025;Pregão Eletrônico (Lei Federal 14.133/2021);5642;2025;SESA-FUNSAUDE - Fundo Estadual de Saúde do Paraná - FUNSAUDE
+485;2025;Pregão Eletrônico (Lei Federal 14.133/2021);4063;2025;UEPG-HURCG - Hospital Universitário Regional dos Campos Gerais
+486;2025;Pregão Eletrônico (Lei Federal 14.133/2021);4691;2025;UEPG-HURCG - Hospital Universitário Regional dos Campos Gerais
+492;2025;Pregão Eletrônico (Lei Federal 14.133/2021);3634;2025;UENP - Universidade Estadual do Norte do Paraná
+497;2025;Pregão Eletrônico (Lei Federal 14.133/2021);4309;2025;UEM - Universidade Estadual de Maringá
+497;2025;Pregão Eletrônico (Lei Federal 14.133/2021);4310;2025;UEM - Universidade Estadual de Maringá
+498;2025;Pregão Eletrônico (Lei Federal 14.133/2021);4114;2025;UEPG-HURCG - Hospital Universitário Regional dos Campos Gerais
+500;2025;Pregão Eletrônico (Lei Federal 14.133/2021);4752;2025;SECOM - Secretaria de Estado da Comunicação
+500;2025;Pregão Eletrônico (Lei Federal 14.133/2021);4762;2025;SECOM - Secretaria de Estado da Comunicação
+500;2025;Pregão Eletrônico (Lei Federal 14.133/2021);5342;2025;SECOM - Secretaria de Estado da Comunicação
+509;2025;Pregão Eletrônico (Lei Federal 14.133/2021);4148;2025;UEL - Universidade Estadual de Londrina
+510;2025;Pregão Eletrônico (Lei Federal 14.133/2021);3720;2025;UEPG-HURCG - Hospital Universitário Regional dos Campos Gerais
+511;2025;Pregão Eletrônico (Lei Federal 14.133/2021);4124;2025;UEM - Universidade Estadual de Maringá
+522;2025;Pregão Eletrônico (Lei Federal 14.133/2021);4021;2025;UEL - Universidade Estadual de Londrina
+522;2025;Pregão Eletrônico (Lei Federal 14.133/2021);4022;2025;UEL - Universidade Estadual de Londrina
+528;2025;Pregão Eletrônico (Lei Federal 14.133/2021);5575;2025;UEL - Universidade Estadual de Londrina
+528;2025;Pregão Eletrônico (Lei Federal 14.133/2021);5576;2025;UEL - Universidade Estadual de Londrina
+529;2025;Pregão Eletrônico (Lei Federal 14.133/2021);4923;2025;UENP - Universidade Estadual do Norte do Paraná
+531;2025;Pregão Eletrônico (Lei Federal 14.133/2021);5027;2025;UNIOESTE FOZ - Universidade Estadual do Oeste do Paraná - Campus Foz do Iguaçu
+532;2025;Pregão Eletrônico (Lei Federal 14.133/2021);4860;2025;UENP - Universidade Estadual do Norte do Paraná
+532;2025;Pregão Eletrônico (Lei Federal 14.133/2021);5007;2025;UENP - Universidade Estadual do Norte do Paraná
+532;2025;Pregão Eletrônico (Lei Federal 14.133/2021);5028;2025;UENP - Universidade Estadual do Norte do Paraná
+532;2025;Pregão Eletrônico (Lei Federal 14.133/2021);5030;2025;UENP - Universidade Estadual do Norte do Paraná
+533;2025;Pregão Eletrônico (Lei Federal 14.133/2021);5059;2025;TCEPR - Tribunal do Contas do Estado do Paraná
+533;2025;Pregão Eletrônico (Lei Federal 14.133/2021);5060;2025;TCEPR - Tribunal do Contas do Estado do Paraná
+535;2025;Pregão Eletrônico (Lei Federal 14.133/2021);5023;2025;UEL - Universidade Estadual de Londrina
+542;2025;Pregão Eletrônico (Lei Federal 14.133/2021);4182;2025;CASA MILITAR - Casa Militar do Estado do Paraná
+545;2025;Pregão Eletrônico (Lei Federal 14.133/2021);4629;2025;UEM - Universidade Estadual de Maringá
+547;2025;Pregão Eletrônico (Lei Federal 14.133/2021);4563;2025;PRESP - Paraná Esporte (Antigo IPCE)
+547;2025;Pregão Eletrônico (Lei Federal 14.133/2021);4573;2025;PRESP - Paraná Esporte (Antigo IPCE)
+547;2025;Pregão Eletrônico (Lei Federal 14.133/2021);4626;2025;PRESP - Paraná Esporte (Antigo IPCE)
+555;2025;Pregão Eletrônico (Lei Federal 14.133/2021);5365;2025;PRPREV - Serviço Social Autônomo PARANAPREVIDENCIA
+557;2025;Pregão Eletrônico (Lei Federal 14.133/2021);4380;2025;UEL - Universidade Estadual de Londrina
+557;2025;Pregão Eletrônico (Lei Federal 14.133/2021);4381;2025;UEL - Universidade Estadual de Londrina
+557;2025;Pregão Eletrônico (Lei Federal 14.133/2021);4382;2025;UEL - Universidade Estadual de Londrina
+558;2025;Pregão Eletrônico (Lei Federal 14.133/2021);4365;2025;AGEPAR - Agência Reguladora de Serviços Públicos Delegados do Paraná
+562;2025;Pregão Eletrônico (Lei Federal 14.133/2021);4674;2025;UEPG-HURCG - Hospital Universitário Regional dos Campos Gerais
+567;2025;Pregão Eletrônico (Lei Federal 14.133/2021);5446;2025;FUNEAS - Fundação Estatal de Atenção em Saúde do Estado do Paraná
+567;2025;Pregão Eletrônico (Lei Federal 14.133/2021);5763;2025;FUNEAS - Fundação Estatal de Atenção em Saúde do Estado do Paraná
+568;2025;Pregão Eletrônico (Lei Federal 14.133/2021);5187;2025;SESA-FUNSAUDE - Fundo Estadual de Saúde do Paraná - FUNSAUDE
+568;2025;Pregão Eletrônico (Lei Federal 14.133/2021);5189;2025;SESA-FUNSAUDE - Fundo Estadual de Saúde do Paraná - FUNSAUDE
+571;2025;Pregão Eletrônico (Lei Federal 14.133/2021);4517;2025;FUNEAS - Fundação Estatal de Atenção em Saúde do Estado do Paraná
+573;2025;Pregão Eletrônico (Lei Federal 14.133/2021);4874;2025;FUNEAS - Fundação Estatal de Atenção em Saúde do Estado do Paraná
+573;2025;Pregão Eletrônico (Lei Federal 14.133/2021);4876;2025;FUNEAS - Fundação Estatal de Atenção em Saúde do Estado do Paraná
+573;2025;Pregão Eletrônico (Lei Federal 14.133/2021);4877;2025;FUNEAS - Fundação Estatal de Atenção em Saúde do Estado do Paraná
+573;2025;Pregão Eletrônico (Lei Federal 14.133/2021);4878;2025;FUNEAS - Fundação Estatal de Atenção em Saúde do Estado do Paraná
+576;2025;Pregão Eletrônico (Lei Federal 14.133/2021);4635;2025;SEMIPI - Secretaria de Estado da Mulher, Igualdade Racial e Pessoa Idosa
+576;2025;Pregão Eletrônico (Lei Federal 14.133/2021);4644;2025;SEMIPI - Secretaria de Estado da Mulher, Igualdade Racial e Pessoa Idosa
+576;2025;Pregão Eletrônico (Lei Federal 14.133/2021);4666;2025;SEMIPI - Secretaria de Estado da Mulher, Igualdade Racial e Pessoa Idosa
+577;2025;Pregão Eletrônico (Lei Federal 14.133/2021);4046;2025;UNIOESTE MCROND - Universidade Estadual do Oeste do Paraná - Campus Marechal Cândido Rondon
+579;2025;Pregão Eletrônico (Lei Federal 14.133/2021);5284;2025;UEPG-HURCG - Hospital Universitário Regional dos Campos Gerais
+591;2025;Pregão Eletrônico (Lei Federal 14.133/2021);5528;2025;PRESP - Paraná Esporte (Antigo IPCE)
+591;2025;Pregão Eletrônico (Lei Federal 14.133/2021);5544;2025;PRESP - Paraná Esporte (Antigo IPCE)
+591;2025;Pregão Eletrônico (Lei Federal 14.133/2021);5546;2025;PRESP - Paraná Esporte (Antigo IPCE)
+591;2025;Pregão Eletrônico (Lei Federal 14.133/2021);5549;2025;PRESP - Paraná Esporte (Antigo IPCE)
+591;2025;Pregão Eletrônico (Lei Federal 14.133/2021);5552;2025;PRESP - Paraná Esporte (Antigo IPCE)
+591;2025;Pregão Eletrônico (Lei Federal 14.133/2021);5557;2025;PRESP - Paraná Esporte (Antigo IPCE)
+591;2025;Pregão Eletrônico (Lei Federal 14.133/2021);5565;2025;PRESP - Paraná Esporte (Antigo IPCE)
+591;2025;Pregão Eletrônico (Lei Federal 14.133/2021);5568;2025;PRESP - Paraná Esporte (Antigo IPCE)
+591;2025;Pregão Eletrônico (Lei Federal 14.133/2021);5571;2025;PRESP - Paraná Esporte (Antigo IPCE)
+591;2025;Pregão Eletrônico (Lei Federal 14.133/2021);5574;2025;PRESP - Paraná Esporte (Antigo IPCE)
+593;2025;Pregão Eletrônico (Lei Federal 14.133/2021);5673;2025;ALEP - Assembleia Legislativa do Estado do Paraná
+622;2025;Pregão Eletrônico (Lei Federal 14.133/2021);4944;2025;TCEPR - Tribunal do Contas do Estado do Paraná
+626;2025;Pregão Eletrônico (Lei Federal 14.133/2021);5496;2025;SESA-FUNSAUDE - Fundo Estadual de Saúde do Paraná - FUNSAUDE
+635;2025;Pregão Eletrônico (Lei Federal 14.133/2021);5121;2025;UEL - Universidade Estadual de Londrina
+646;2025;Pregão Eletrônico (Lei Federal 14.133/2021);5455;2025;PRPREV - Serviço Social Autônomo PARANAPREVIDENCIA
+647;2025;Pregão Eletrônico (Lei Federal 14.133/2021);4689;2025;PRPREV - Serviço Social Autônomo PARANAPREVIDENCIA
+659;2025;Pregão Eletrônico (Lei Federal 14.133/2021);4927;2025;UEM - Universidade Estadual de Maringá
+659;2025;Pregão Eletrônico (Lei Federal 14.133/2021);4928;2025;UEM - Universidade Estadual de Maringá
+659;2025;Pregão Eletrônico (Lei Federal 14.133/2021);4930;2025;UEM - Universidade Estadual de Maringá
+663;2025;Pregão Eletrônico (Lei Federal 14.133/2021);4468;2025;UEPG-HURCG - Hospital Universitário Regional dos Campos Gerais
+664;2025;Pregão Eletrônico (Lei Federal 14.133/2021);4768;2025;UNIOESTE HUOP - Universidade Estadual do Oeste do Paraná - Hospital Universitário do Oeste do Paraná
+667;2025;Pregão Eletrônico (Lei Federal 14.133/2021);5526;2025;ADAPAR - Agência de Defesa Agropecuária do Paraná
+672;2025;Pregão Eletrônico (Lei Federal 14.133/2021);5335;2025;UEL - Universidade Estadual de Londrina
+676;2025;Pregão Eletrônico (Lei Federal 14.133/2021);5064;2025;UENP - Universidade Estadual do Norte do Paraná
+676;2025;Pregão Eletrônico (Lei Federal 14.133/2021);5066;2025;UENP - Universidade Estadual do Norte do Paraná
+676;2025;Pregão Eletrônico (Lei Federal 14.133/2021);5069;2025;UENP - Universidade Estadual do Norte do Paraná
+676;2025;Pregão Eletrônico (Lei Federal 14.133/2021);5072;2025;UENP - Universidade Estadual do Norte do Paraná
+685;2025;Pregão Eletrônico (Lei Federal 14.133/2021);5083;2025;UENP - Universidade Estadual do Norte do Paraná
+685;2025;Pregão Eletrônico (Lei Federal 14.133/2021);5088;2025;UENP - Universidade Estadual do Norte do Paraná
+685;2025;Pregão Eletrônico (Lei Federal 14.133/2021);5089;2025;UENP - Universidade Estadual do Norte do Paraná
+690;2025;Pregão Eletrônico (Lei Federal 14.133/2021);5624;2025;UEPG-HURCG - Hospital Universitário Regional dos Campos Gerais
+694;2025;Pregão Eletrônico (Lei Federal 14.133/2021);4841;2025;UEPG-HURCG - Hospital Universitário Regional dos Campos Gerais
+700;2025;Pregão Eletrônico (Lei Federal 14.133/2021);5321;2025;UEPG-HURCG - Hospital Universitário Regional dos Campos Gerais
+704;2025;Pregão Eletrônico (Lei Federal 14.133/2021);5234;2025;SESA-FUNSAUDE - Fundo Estadual de Saúde do Paraná - FUNSAUDE
+704;2025;Pregão Eletrônico (Lei Federal 14.133/2021);5249;2025;SESA-FUNSAUDE - Fundo Estadual de Saúde do Paraná - FUNSAUDE
+704;2025;Pregão Eletrônico (Lei Federal 14.133/2021);5251;2025;SESA-FUNSAUDE - Fundo Estadual de Saúde do Paraná - FUNSAUDE
+704;2025;Pregão Eletrônico (Lei Federal 14.133/2021);5256;2025;SESA-FUNSAUDE - Fundo Estadual de Saúde do Paraná - FUNSAUDE
+705;2025;Pregão Eletrônico (Lei Federal 14.133/2021);4698;2025;UNIOESTE MCROND - Universidade Estadual do Oeste do Paraná - Campus Marechal Cândido Rondon
+712;2025;Pregão Eletrônico (Lei Federal 14.133/2021);4886;2025;UENP - Universidade Estadual do Norte do Paraná
+712;2025;Pregão Eletrônico (Lei Federal 14.133/2021);4895;2025;UENP - Universidade Estadual do Norte do Paraná
+712;2025;Pregão Eletrônico (Lei Federal 14.133/2021);4906;2025;UENP - Universidade Estadual do Norte do Paraná
+712;2025;Pregão Eletrônico (Lei Federal 14.133/2021);4911;2025;UENP - Universidade Estadual do Norte do Paraná
+712;2025;Pregão Eletrônico (Lei Federal 14.133/2021);4912;2025;UENP - Universidade Estadual do Norte do Paraná
+712;2025;Pregão Eletrônico (Lei Federal 14.133/2021);4914;2025;UENP - Universidade Estadual do Norte do Paraná
+712;2025;Pregão Eletrônico (Lei Federal 14.133/2021);4915;2025;UENP - Universidade Estadual do Norte do Paraná
+712;2025;Pregão Eletrônico (Lei Federal 14.133/2021);4916;2025;UENP - Universidade Estadual do Norte do Paraná
+712;2025;Pregão Eletrônico (Lei Federal 14.133/2021);4917;2025;UENP - Universidade Estadual do Norte do Paraná
+712;2025;Pregão Eletrônico (Lei Federal 14.133/2021);5017;2025;UENP - Universidade Estadual do Norte do Paraná
+712;2025;Pregão Eletrônico (Lei Federal 14.133/2021);5018;2025;UENP - Universidade Estadual do Norte do Paraná
+713;2025;Pregão Eletrônico (Lei Federal 14.133/2021);4925;2025;PRPREV - Serviço Social Autônomo PARANAPREVIDENCIA
+716;2025;Pregão Eletrônico (Lei Federal 14.133/2021);4963;2025;UEL - Universidade Estadual de Londrina
+716;2025;Pregão Eletrônico (Lei Federal 14.133/2021);4964;2025;UEL - Universidade Estadual de Londrina
+728;2025;Pregão Eletrônico (Lei Federal 14.133/2021);5247;2025;UEPG-HURCG - Hospital Universitário Regional dos Campos Gerais
+729;2025;Pregão Eletrônico (Lei Federal 14.133/2021);5603;2025;CCTG - Centro Cultural Teatro Guaira
+740;2025;Pregão Eletrônico (Lei Federal 14.133/2021);5336;2025;UEL - Universidade Estadual de Londrina
+743;2025;Pregão Eletrônico (Lei Federal 14.133/2021);5379;2025;PRESP - Paraná Esporte (Antigo IPCE)
+746;2025;Pregão Eletrônico (Lei Federal 14.133/2021);5288;2025;UNIOESTE HUOP - Universidade Estadual do Oeste do Paraná - Hospital Universitário do Oeste do Paraná
+748;2025;Pregão Eletrônico (Lei Federal 14.133/2021);5668;2025;DER - Departamento de Estradas de Rodagem do Estado do Paraná
+757;2025;Pregão Eletrônico (Lei Federal 14.133/2021);5735;2025;UEL - Universidade Estadual de Londrina
+758;2025;Pregão Eletrônico (Lei Federal 14.133/2021);4852;2025;PRESP - Paraná Esporte (Antigo IPCE)
+758;2025;Pregão Eletrônico (Lei Federal 14.133/2021);4857;2025;PRESP - Paraná Esporte (Antigo IPCE)
+758;2025;Pregão Eletrônico (Lei Federal 14.133/2021);5752;2025;PRESP - Paraná Esporte (Antigo IPCE)
+758;2025;Pregão Eletrônico (Lei Federal 14.133/2021);5757;2025;PRESP - Paraná Esporte (Antigo IPCE)
+758;2025;Pregão Eletrônico (Lei Federal 14.133/2021);5759;2025;PRESP - Paraná Esporte (Antigo IPCE)
+764;2025;Pregão Eletrônico (Lei Federal 14.133/2021);4945;2025;UENP - Universidade Estadual do Norte do Paraná
+764;2025;Pregão Eletrônico (Lei Federal 14.133/2021);4946;2025;UENP - Universidade Estadual do Norte do Paraná
+764;2025;Pregão Eletrônico (Lei Federal 14.133/2021);4948;2025;UENP - Universidade Estadual do Norte do Paraná
+764;2025;Pregão Eletrônico (Lei Federal 14.133/2021);4952;2025;UENP - Universidade Estadual do Norte do Paraná
+764;2025;Pregão Eletrônico (Lei Federal 14.133/2021);4954;2025;UENP - Universidade Estadual do Norte do Paraná
+764;2025;Pregão Eletrônico (Lei Federal 14.133/2021);4955;2025;UENP - Universidade Estadual do Norte do Paraná
+764;2025;Pregão Eletrônico (Lei Federal 14.133/2021);4956;2025;UENP - Universidade Estadual do Norte do Paraná
+766;2025;Pregão Eletrônico (Lei Federal 14.133/2021);5146;2025;TCEPR - Tribunal do Contas do Estado do Paraná
+767;2025;Pregão Eletrônico (Lei Federal 14.133/2021);5077;2025;UENP - Universidade Estadual do Norte do Paraná
+767;2025;Pregão Eletrônico (Lei Federal 14.133/2021);5080;2025;UENP - Universidade Estadual do Norte do Paraná
+768;2025;Pregão Eletrônico (Lei Federal 14.133/2021);5141;2025;PRPREV - Serviço Social Autônomo PARANAPREVIDENCIA
+780;2025;Pregão Eletrônico (Lei Federal 14.133/2021);5237;2025;CASA MILITAR - Casa Militar do Estado do Paraná
+780;2025;Pregão Eletrônico (Lei Federal 14.133/2021);5241;2025;CASA MILITAR - Casa Militar do Estado do Paraná
+780;2025;Pregão Eletrônico (Lei Federal 14.133/2021);5243;2025;CASA MILITAR - Casa Militar do Estado do Paraná
+780;2025;Pregão Eletrônico (Lei Federal 14.133/2021);5244;2025;CASA MILITAR - Casa Militar do Estado do Paraná
+793;2025;Pregão Eletrônico (Lei Federal 14.133/2021);4708;2025;UEM - Universidade Estadual de Maringá
+800;2025;Pregão Eletrônico (Lei Federal 14.133/2021);5490;2025;UENP - Universidade Estadual do Norte do Paraná
+800;2025;Pregão Eletrônico (Lei Federal 14.133/2021);5492;2025;UENP - Universidade Estadual do Norte do Paraná
+800;2025;Pregão Eletrônico (Lei Federal 14.133/2021);5495;2025;UENP - Universidade Estadual do Norte do Paraná
+800;2025;Pregão Eletrônico (Lei Federal 14.133/2021);5502;2025;UENP - Universidade Estadual do Norte do Paraná
+802;2025;Pregão Eletrônico (Lei Federal 14.133/2021);5150;2025;UEL - Universidade Estadual de Londrina
+851;2025;Pregão Eletrônico (Lei Federal 14.133/2021);5652;2025;UEPG-HURCG - Hospital Universitário Regional dos Campos Gerais
+859;2025;Pregão Eletrônico (Lei Federal 14.133/2021);5003;2025;UEM - Universidade Estadual de Maringá
+860;2025;Pregão Eletrônico (Lei Federal 14.133/2021);5096;2025;CASA MILITAR - Casa Militar do Estado do Paraná
+860;2025;Pregão Eletrônico (Lei Federal 14.133/2021);5097;2025;CASA MILITAR - Casa Militar do Estado do Paraná
+873;2025;Pregão Eletrônico (Lei Federal 14.133/2021);5352;2025;UNIOESTE MCROND - Universidade Estadual do Oeste do Paraná - Campus Marechal Cândido Rondon
+883;2025;Pregão Eletrônico (Lei Federal 14.133/2021);5683;2025;PRPREV - Serviço Social Autônomo PARANAPREVIDENCIA
+887;2025;Pregão Eletrônico (Lei Federal 14.133/2021);5466;2025;ALEP - Assembleia Legislativa do Estado do Paraná
+914;2025;Pregão Eletrônico (Lei Federal 14.133/2021);5400;2025;CASA MILITAR - Casa Militar do Estado do Paraná
+914;2025;Pregão Eletrônico (Lei Federal 14.133/2021);5401;2025;CASA MILITAR - Casa Militar do Estado do Paraná
+930;2025;Pregão Eletrônico (Lei Federal 14.133/2021);5371;2025;UEM - Universidade Estadual de Maringá
+930;2025;Pregão Eletrônico (Lei Federal 14.133/2021);5377;2025;UEM - Universidade Estadual de Maringá
+938;2025;Pregão Eletrônico (Lei Federal 14.133/2021);5403;2025;SEAB - Secretaria de Estado da Agricultura e do Abastecimento
+944;2025;Pregão Eletrônico (Lei Federal 14.133/2021);5483;2025;UEM - Universidade Estadual de Maringá
+950;2025;Pregão Eletrônico (Lei Federal 14.133/2021);5591;2025;UNIOESTE MCROND - Universidade Estadual do Oeste do Paraná - Campus Marechal Cândido Rondon
+5;2025;Pregão Presencial;462;2025;UEL - Universidade Estadual de Londrina
+9;2025;Pregão Presencial;3886;2025;UEM - Universidade Estadual de Maringá
+10;2025;Pregão Presencial;4147;2025;UEM - Universidade Estadual de Maringá
+1;2025;Pregão Presencial (Lei Federal 14.133/2021);4982;2025;UEM - Universidade Estadual de Maringá
