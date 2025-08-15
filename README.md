@@ -41,4 +41,6 @@ python3 -m src.pipeline.score_from_merged \
 ```
 
 ## 5) Abrir o dashboard
+```
 python3 -m streamlit run src/app/dashboard.py
+```
