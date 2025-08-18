@@ -26,10 +26,8 @@ def main():
     except Exception as e:
         print(f"[warn] parquet indisponível ({e}); salvando CSV…")
         if out.suffix == ".csv":
-            df.to_csv(out, index=False)
-        else:
-            df.to_csv(out.with_suffix(".csv"), index=False)
-        print(f"[ok] salvo csv em: {out if out.suffix == '.csv' else out.with_suffix('.csv')}")
+            df.to_csv(out if out.suffix == ".csv" else out.with_suffix(".csv"),
+                      index=False, encoding="utf-8-sig")
 
     print("linhas:", len(df))
     print("colunas:", list(df.columns))

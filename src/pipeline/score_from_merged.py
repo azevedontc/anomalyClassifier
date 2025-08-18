@@ -91,7 +91,7 @@ def main():
         base = pd.read_csv(args.input)
 
     out = score(base)
-    out.to_csv(args.out, index=False)
+    out.to_csv(args.out, index=False, encoding="utf-8-sig")
     print(f"[ok] score salvo em: {args.out}")
     print(out.head(10))
 

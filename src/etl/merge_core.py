@@ -3,7 +3,16 @@ from pathlib import Path
 import pandas as pd
 
 def _read_csv(path: Path) -> pd.DataFrame:
-    return pd.read_csv(path, sep=";", encoding="latin1")
+    # tenta encodings em ordem: UTF-8, UTF-8 com BOM, CP1252/Latin-1
+    last_err = None
+    for enc in ("utf-8", "utf-8-sig", "cp1252", "latin1"):
+        try:
+            return pd.read_csv(path, sep=";", encoding=enc, dtype=str, low_memory=False)
+        except Exception as e:
+            last_err = e
+            continue
+    raise RuntimeError(f"Falha lendo {path.name} (encodings testados). Último erro: {last_err}")
+
 
 def _coerce_keys(df: pd.DataFrame) -> pd.DataFrame:
     for c in ("numprocesso","ano","modalidade"):
