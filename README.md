@@ -1,6 +1,33 @@
 # anomalyTracker
 Anomaly Detector in Public Bidding / Detector de Anomalias em Licitações Públicas 
+## Como é calculado o score?
+```
+Para cada item de licitação, o sistema cria medidas objetivas:
+- Preço por unidade (estimado e adjudicado).
+- Preço típico do grupo (mediana de itens semelhantes).
+- Quão acima do normal o preço está (estatísticas como z-score e IQR).
+- Desconto (quanto caiu do estimado pro adjudicado).
+- Concorrência (quantos CNPJs distintos deram lance no lote).
+- Concentração (quantas vitórias o mesmo CNPJ tem dentro do mesmo órgão).
 
+O sistema faz duas pontuações:
+    - Regras (0–100): cada “bandeira vermelha” soma um peso.
+    Pesos padrão:
+        - preço muito acima: 40
+        - baixa concorrência (≤1 proposta): 25
+        - desconto muito baixo (<2%): 20
+        - fornecedor concentrado na UG: 15
+    Soma dos pesos acionados → normaliza para 0–100.
+    Modelo automático (0–100): IsolationForest olha todas as variáveis juntas e diz “o quão fora da curva” o item está (0=normal, 100=mais estranho).
+
+A nota final combina os 2 jeitos:
+
+score = 0.6 × nota do modelo + 0.4 × nota das regras
+
+Ex.: se o modelo deu 80 e as regras somaram 60 → score = 0.6 × 80 + 0.4 × 60 = 72.
+
+Importante: score alto não acusa fraude. Ele só diz: “vale olhar com carinho”.
+```
 ## 1) Criar venv e instalar deps
 ```
 python3 -m venv .venv && source .venv/bin/activate
