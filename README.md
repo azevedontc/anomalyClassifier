@@ -1,34 +1,39 @@
 # anomalyTracker
-Anomaly Detector in Public Bidding / Detector de Anomalias em Licitações Públicas 
-## Como é calculado o score?
-```
+Anomaly Detector in Public Bidding / Detector de Anomalias em Licitações Públicas
+
+## **Como é calculado o score?**
 Para cada item de licitação, o sistema cria medidas objetivas:
-- Preço por unidade (estimado e adjudicado).
-- Preço típico do grupo (mediana de itens semelhantes).
-- Quão acima do normal o preço está (estatísticas como z-score e IQR).
-- Desconto (quanto caiu do estimado pro adjudicado).
-- Concorrência (quantos CNPJs distintos deram lance no lote).
-- Concentração (quantas vitórias o mesmo CNPJ tem dentro do mesmo órgão).
+- **Preço por unidade** (estimado e adjudicado).
+- **Preço típico do grupo** (mediana de itens semelhantes).
+- **Quão acima do normal** o preço está (estatísticas como z-score e IQR).
+- **Desconto** (quanto caiu do estimado pro adjudicado).
+- **Concorrência** (quantos CNPJs distintos deram lance no lote).
+- **Concentração** (quantas vitórias o mesmo CNPJ tem dentro do mesmo órgão).
 
-O sistema faz duas pontuações:
-    - Regras (0–100): cada “bandeira vermelha” soma um peso.
-    Pesos padrão:
-        - preço muito acima: 40
-        - baixa concorrência (≤1 proposta): 25
-        - desconto muito baixo (<2%): 20
-        - fornecedor concentrado na UG: 15
-    Soma dos pesos acionados → normaliza para 0–100.
-    Modelo automático (0–100): IsolationForest olha todas as variáveis juntas e diz “o quão fora da curva” o item está (0=normal, 100=mais estranho).
+### O sistema faz duas pontuações:
+1. **Regras (0–100)**: Cada “bandeira vermelha” soma um peso.  
+   **Pesos padrão**:
+   - Preço muito acima: **40**
+   - Baixa concorrência (≤1 proposta): **25**
+   - Desconto muito baixo (<2%): **20**
+   - Fornecedor concentrado na UG: **15**
+   
+   **Nota das Regras** é calculada somando as pontuações das regras acionadas e normalizando para **0–100**.
 
-A nota final combina os 2 jeitos:
+2. **Modelo automático (0–100)**: O modelo **IsolationForest** (ou LOF/PCA, dependendo da configuração) olha todas as variáveis juntas e diz **“o quão fora da curva”** o item está (0=normal, 100=mais estranho).
 
-score = 0.6 × nota do modelo + 0.4 × nota das regras
+### **Cálculo Final**:
+A nota final combina as duas pontuações da seguinte forma:
 
-Ex.: se o modelo deu 80 e as regras somaram 60 → score = 0.6 × 80 + 0.4 × 60 = 72.
+**{score final}** = 0.6 * {nota do modelo} + 0.4 * {nota das regras}
 
-Importante: score alto não acusa fraude. Ele só diz: “vale olhar com carinho”.
-```
-## 1) Criar venv e instalar deps
+**Exemplo**: Se o modelo deu **80** e as regras somaram **60**, a nota final será:
+
+**{score final}** = 0.6 * 80 + 0.4 * 60 = **72**
+
+**Importante**: Score alto não acusa fraude, apenas indica que o item é um _**outlier**_.
+
+## **1) Criar venv e instalar dependências**
 ```
 python3 -m venv .venv && source .venv/bin/activate
 python3 -m pip install --upgrade pip
@@ -64,7 +69,8 @@ python3 -m src.etl.merge_multi_years \
 ```
 python3 -m src.pipeline.score_from_merged \
   --input data/licitacoes_2023_2025.parquet \
-  --out data/anomalias_2023_2025.csv
+  --out data/anomalias_2023_2025.csv \
+  --out-all data/anomalias_2023_2025_detalhado.csv
 ```
 
 ## 5) Abrir o dashboard
