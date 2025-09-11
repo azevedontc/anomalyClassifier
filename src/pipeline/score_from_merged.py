@@ -39,9 +39,10 @@ def _build_features(df: pd.DataFrame) -> pd.DataFrame:
     stats["g_q75"] = q[0.75]
     stats["g_iqr"] = stats["g_q75"] - stats["g_q25"]
 
-    # Modificando o join para evitar conflito de colunas
-    df = df.join(stats, on="grupo_item", rsuffix="_group")  # Adiciona sufixo para as colunas do grupo
+    # Adicionar sufixo "_group" nas colunas do grupo
+    df = df.join(stats, on="grupo_item", rsuffix="_group")  # Adiciona sufixo '_group'
 
+    # Garantir que as colunas do grupo são corretamente acessadas com '_group'
     df["z_price"] = (df["preco_unit_adj"] - df["g_mean_group"]) / df["g_std_group"].replace(0, np.nan)
     df["iqr_score"] = (df["preco_unit_adj"] - df["g_q75_group"]) / df["g_iqr_group"].replace(0, np.nan)
     df["desconto"] = 1 - (df["preco_unit_adj"] / df["preco_unit_est"])
