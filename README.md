@@ -1,79 +1,70 @@
-# anomalyTracker
-Anomaly Detector in Public Bidding / Detector de Anomalias em Licitações Públicas
+# Azevedo TCC — Detecção de Anomalias em Licitações (Construção/Obras)
 
-## **Como é calculado o score?**
-Para cada item de licitação, o sistema cria medidas objetivas:
-- **Preço por unidade** (estimado e adjudicado).
-- **Preço típico do grupo** (mediana de itens semelhantes).
-- **Quão acima do normal** o preço está (estatísticas como z-score e IQR).
-- **Desconto** (quanto caiu do estimado pro adjudicado).
-- **Concorrência** (quantos CNPJs distintos deram lance no lote).
-- **Concentração** (quantas vitórias o mesmo CNPJ tem dentro do mesmo órgão).
+Pipeline **não supervisionado** para detectar **licitações anômalas** no Estado do Paraná, focado no nicho **Construção/Obras**.  
+A saída final é um CSV/Parquet com `anomaly_score` e `is_anomalous` (sem texto de explicação).  
+A **explicação** é calculada **no front-end (Streamlit)** de forma leve e intuitiva.
 
-### O sistema faz duas pontuações:
-1. **Regras (0–100)**: Cada “bandeira vermelha” soma um peso.  
-   **Pesos padrão**:
-   - Preço muito acima: **40**
-   - Baixa concorrência (≤1 proposta): **25**
-   - Desconto muito baixo (<2%): **20**
-   - Fornecedor concentrado na UG: **15**
-   
-   **Nota das Regras** é calculada somando as pontuações das regras acionadas e normalizando para **0–100**.
-
-2. **Modelo automático (0–100)**: O modelo **IsolationForest** (ou LOF/PCA, dependendo da configuração) olha todas as variáveis juntas e diz **“o quão fora da curva”** o item está (0=normal, 100=mais estranho).
-
-### **Cálculo Final**:
-A nota final combina as duas pontuações da seguinte forma:
-
-**{score final}** = 0.6 * {nota do modelo} + 0.4 * {nota das regras}
-
-**Exemplo**: Se o modelo deu **80** e as regras somaram **60**, a nota final será:
-
-**{score final}** = 0.6 * 80 + 0.4 * 60 = **72**
-
-**Importante**: Score alto não acusa fraude, apenas indica que o item é um _**outlier**_.
-
-## **1) Criar venv e instalar dependências**
+## Estrutura do Projeto
 ```
-python3 -m venv .venv && source .venv/bin/activate
-python3 -m pip install --upgrade pip
+azevedo-tcc-licitacoes/
+├─ app/
+│  └─ app.py                  # Front-end (Streamlit) — lê CSV/Parquet final e mostra resultados/explicações
+├─ data/                      # CSVs brutos (por ano), mesmo layout para 2025/2024/2023
+├─ outputs/
+│  ├─ 2025/
+│  │  ├─ licitacoes_construcao_obras_merged-2025.csv
+│  │  ├─ licitacoes_construcao_obras_anomalias-2025.csv
+│  │  └─ modelmeta-2025.json  # metadados p/ explicações (medianas/IQR/features/contamination)
+│  └─ 2024/
+│     ├─ licitacoes_construcao_obras_merged-2024.csv
+│     ├─ licitacoes_construcao_obras_anomalias-2024.csv
+│     └─ modelmeta-2024.json
+├─ src/
+│  ├─ __init__.py
+│  ├─ config.py               # Palavras-chave do nicho e parâmetros padrão
+│  ├─ io_utils.py             # Leitura robusta e normalização de colunas
+│  ├─ features.py             # Seleção/criação de colunas numéricas e agregações
+│  └─ pipeline.py             # Função `run_year(...)` que orquestra tudo e escreve saídas
+├─ requirements.txt
+├─ Makefile
+└─ README.md
+```
+
+## Como rodar
+### 1) Instalar dependências
+```bash
+python -m venv .venv
+source .venv/bin/activate   # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-## 2) Organizar os CSVs do portal
-```
-data/
-  LICITACOES-2025/  -> TB_ITENS-2025.csv, TB_LICITACOES-2025.csv,
-                       TB_LOTES-2025.csv, TB_EMPRESAS_PARTICIPANTES-2025.csv,
-                       (opcional) TB_PUBLICIDADE-2025.csv
-  LICITACOES-2024/  -> mesmos nomes com -2024
-  LICITACOES-2023/  -> mesmos nomes com -2023
+### 2) Executar o pipeline (por ano)
+```bash
+# Processar 2025
+python -m src.pipeline --input_dir ./data --year 2025 --out_dir ./outputs
+
+# Processar 2024
+python -m src.pipeline --input_dir ./data --year 2024 --out_dir ./outputs
+
+# Quando chegar 2023 (mesma estrutura)
+python -m src.pipeline --input_dir ./data --year 2023 --out_dir ./outputs
 ```
 
-## 3A) Merge de um ano
-```
-python3 -m src.etl.merge_year --input data/LICITACOES-2025 --out data/licitacoes_2025.parquet
-```
+Saídas por ano:
+- `*_merged-<ano>.csv` — dataset do nicho com features agregadas
+- `*_anomalias-<ano>.csv` — resultado final da classificação (sem col. de explicação)
+- `modelmeta-<ano>.json` — metadados para explicar no front-end (medianas, IQR, features, threshold/contamination)
 
-(se der erro de parquet, o script salva CSV automaticamente)
+### 3) Rodar o front-end (Streamlit)
+```bash
+streamlit run app/app.py
+```
+No app:
+- Carregue os arquivos do ano (`anomalias-<ano>.csv` + opcionalmente `merged-<ano>.csv` e `modelmeta-<ano>.json`);
+- Explore as anomalias, filtre, e clique em um registro para ver **explicação** dos **top desvios** (IQR) e gráficos.
 
+## Observações
+- **Não é fraude**: “anômalo” significa **fora do padrão** dos pares.
+- O filtro do nicho usa palavras-chave no texto do objeto/descrição; se houver uma coluna categórica oficial de classe, substitua no `src/config.py`.
+- O `contamination` pode ser ajustado no `config.py` ou via CLI em `src/pipeline.py`.
 
-## 3B) Merge multi‑ano (recomendado)
-```
-python3 -m src.etl.merge_multi_years \
-  --folders data/LICITACOES-2025 data/LICITACOES-2024 data/LICITACOES-2023 \
-  --out data/licitacoes_2023_2025.parquet
-```
-
-## 4) Gerar o ranking de anomalias
-```
-python3 -m src.pipeline.score_from_merged \
-  --input data/licitacoes_2023_2025.parquet \
-  --out data/anomalias_2023_2025.csv \
-  --out-all data/anomalias_2023_2025_detalhado.csv
-```
-
-## 5) Abrir o dashboard
-```
-python3 -m streamlit run src/app/dashboard.py
-```
