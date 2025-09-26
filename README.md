@@ -1,70 +1,55 @@
-# Azevedo TCC — Detecção de Anomalias em Licitações (Construção/Obras)
+# anomalyTracker
 
-Pipeline **não supervisionado** para detectar **licitações anômalas** no Estado do Paraná, focado no nicho **Construção/Obras**.  
-A saída final é um CSV/Parquet com `anomaly_score` e `is_anomalous` (sem texto de explicação).  
-A **explicação** é calculada **no front-end (Streamlit)** de forma leve e intuitiva.
+Detector simples de anomalias em licitações do **Paraná (2023–2025)**.
 
-## Estrutura do Projeto
-```
-azevedo-tcc-licitacoes/
-├─ app/
-│  └─ app.py                  # Front-end (Streamlit) — lê CSV/Parquet final e mostra resultados/explicações
-├─ data/                      # CSVs brutos (por ano), mesmo layout para 2025/2024/2023
-├─ outputs/
-│  ├─ 2025/
-│  │  ├─ licitacoes_construcao_obras_merged-2025.csv
-│  │  ├─ licitacoes_construcao_obras_anomalias-2025.csv
-│  │  └─ modelmeta-2025.json  # metadados p/ explicações (medianas/IQR/features/contamination)
-│  └─ 2024/
-│     ├─ licitacoes_construcao_obras_merged-2024.csv
-│     ├─ licitacoes_construcao_obras_anomalias-2024.csv
-│     └─ modelmeta-2024.json
-├─ src/
-│  ├─ __init__.py
-│  ├─ config.py               # Palavras-chave do nicho e parâmetros padrão
-│  ├─ io_utils.py             # Leitura robusta e normalização de colunas
-│  ├─ features.py             # Seleção/criação de colunas numéricas e agregações
-│  └─ pipeline.py             # Função `run_year(...)` que orquestra tudo e escreve saídas
-├─ requirements.txt
-├─ Makefile
-└─ README.md
-```
-
-## Como rodar
-### 1) Instalar dependências
+## Como executar localmente
 ```bash
-python -m venv .venv
-source .venv/bin/activate   # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
+python3 scripts/build_silver.py    # gera data/silver/*.parquet e KPIs
+python3 scripts/build_gold.py      # gera curadorias em data/gold/
+streamlit run app.py               # front-end
 ```
 
-### 2) Executar o pipeline (por ano)
-```bash
-# Processar 2025
-python -m src.pipeline --input_dir ./data --year 2025 --out_dir ./outputs
+## Metodologia (resumo)
+- **Valor total (VT)**: `valor_ou_desconto_homologado` quando disponivel; caso contrario, `valor_estimado`.
+- **Classificacao do objeto**: heuristica de palavras-chave para `obra_eng` vs `bens_servicos` (`src/utils_text.py`).
+- **LSL (Limite Superior de Referencia)**: tabela `data/limits_br.csv` por **regime** (8666/14133) e **tipo**.
+- **Indicador**: **Razao VT/LSL**. Sinalizamos `flag_irregular = 1` quando `VT > LSL`.
+- **KPIs**: % irregulares e % de “prejuizo” (excedente/total) no recorte.
 
-# Processar 2024
-python -m src.pipeline --input_dir ./data --year 2024 --out_dir ./outputs
+### Sobre o LSL e os fundamentos legais
+**Proposito didatico**: o LSL e um *cap* de referencia para comparar valores. A planilha `data/limits_br.csv` contem valores **exemplificativos**. Para o TCC, descreva e justifique os patamares adotados. 
 
-# Quando chegar 2023 (mesma estrutura)
-python -m src.pipeline --input_dir ./data --year 2023 --out_dir ./outputs
-```
+- **Lei 8.666/1993 (revogada)** — **art. 23**: definia faixas de valor para modalidades. Valores historicamente usados como referencia eram, por exemplo, **R$ 1.500.000** (obras/servicos de engenharia) e **R$ 650.000** (compras/servicos) para concorrencia. 
+- **Lei 14.133/2021** — mantem modalidades diferentes e **define limites para dispensa por valor** (art. 75). Nao ha mais a mesma logica de “faixas por modalidade” da 8.666; portanto, qualquer *cap* precisa ser **explicitado como criterio do estudo**.
 
-Saídas por ano:
-- `*_merged-<ano>.csv` — dataset do nicho com features agregadas
-- `*_anomalias-<ano>.csv` — resultado final da classificação (sem col. de explicação)
-- `modelmeta-<ano>.json` — metadados para explicar no front-end (medianas, IQR, features, threshold/contamination)
+> **Aviso**: Ajuste a `limits_br.csv` conforme a fundamentacao escolhida (legislacao aplicavel ao periodo, decretos, atualizacoes). Registre no TCC a fonte e data.
 
-### 3) Rodar o front-end (Streamlit)
-```bash
-streamlit run app/app.py
-```
-No app:
-- Carregue os arquivos do ano (`anomalias-<ano>.csv` + opcionalmente `merged-<ano>.csv` e `modelmeta-<ano>.json`);
-- Explore as anomalias, filtre, e clique em um registro para ver **explicação** dos **top desvios** (IQR) e gráficos.
+## Dicionario de dados (silver)
+| coluna | descricao |
+|---|---|
+| numprocesso | Chave do processo |
+| ano | Ano da licitacao |
+| modalidade | Modalidade declarada |
+| situacao | Status do processo |
+| orgao | Orgao demandante |
+| objeto | Descricao do objeto |
+| tipo | obra_eng / bens_servicos (heuristica) |
+| valor_estimado | Valor estimado |
+| valor_ou_desconto_homologado | Valor homologado |
+| valor_total | VT = homologado ou estimado |
+| lsl_cap | Limite superior (tabela + regime) |
+| razao_vt_lsl | VT/LSL |
+| flag_irregular | 1 se VT > LSL |
+| participantes | Empresas unicas participantes |
+| vencedores | Vencedores no processo |
+| qtd_itens | Itens do processo |
+| excedente | max(VT-LSL, 0) |
 
-## Observações
-- **Não é fraude**: “anômalo” significa **fora do padrão** dos pares.
-- O filtro do nicho usa palavras-chave no texto do objeto/descrição; se houver uma coluna categórica oficial de classe, substitua no `src/config.py`.
-- O `contamination` pode ser ajustado no `config.py` ou via CLI em `src/pipeline.py`.
+## Saidas gold
+- `data/gold/ranking_processos.csv` — ranking por VT/LSL (com excedente).
+- `data/gold/kpis_por_orgao_ano.csv` — KPIs por orgao/ano.
 
+## Observacoes
+- Unidades e valores dependem da qualidade dos CSVs e da parametrizacao do LSL.
+- `top winners/losers` agora mede **participacao por lote**; taxa de vitoria fica <= 100%.

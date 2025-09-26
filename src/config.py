@@ -1,9 +1,14 @@
-KEYWORDS_OBRAS = [
-    "obra","obras","construc","constru","engenharia","reforma","paviment",
-    "edifica","predial","manuten","terraplen","asfalt","saneament","arquitet",
-    "civil","hidraulic","eletric"
-]
+from pathlib import Path
+import os
 
-DEFAULT_CONTAMINATION = 0.07  # taxa-alvo de anomalias
-MIN_FEATURE_COVERAGE = 0.60   # fração mínima de não-nulos para manter feature
-MIN_FEATURE_NUNIQUE   = 5     # nº mínimo de valores distintos para manter feature
+ROOT = Path(__file__).resolve().parents[1]
+DATA_RAW = ROOT / 'data' / 'raw'
+DATA_BRONZE = ROOT / 'data' / 'bronze'
+DATA_SILVER = ROOT / 'data' / 'silver'
+DATA_GOLD = ROOT / 'data' / 'gold'
+
+_external_env = os.environ.get('EXTERNAL_DATA_DIR')
+EXTERNAL_DATA_DIR = Path(_external_env) if _external_env else DATA_BRONZE
+YEARS = [2023, 2024, 2025]
+UF = 'PR'
+DEFAULT_REGIME = os.environ.get('LEGAL_REGIME', '8666')

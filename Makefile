@@ -1,16 +1,13 @@
-.PHONY: venv install run-2025 run-2024 app
+.PHONY: setup data app gold
 
-venv:
-	python -m venv .venv
+setup:
+	python -m venv .venv && . .venv/bin/activate && pip install -U pip && pip install -r requirements.txt
 
-install: venv
-	. .venv/bin/activate && pip install -r requirements.txt
+data:
+	python scripts/build_silver.py
 
-run-2025:
-	python -m src.pipeline --input_dir ./data --year 2025 --out_dir ./outputs
-
-run-2024:
-	python -m src.pipeline --input_dir ./data --year 2024 --out_dir ./outputs
+gold:
+	python scripts/build_gold.py
 
 app:
-	streamlit run app/app.py
+	streamlit run app.py
